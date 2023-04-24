@@ -1,6 +1,3 @@
-type: domain
-system: jazz
-
 en: jazz genre
 ru: жанра джаз
 
@@ -10,9 +7,9 @@ max: |
   jazz
 
 concepts: |
-  jazz_6
-  jazz_5
-  jazz_4
-  jazz_3
-  jazz_2
-  jazz_1
+  jazz_w
+  jazz_q
+  jazz_r
+  jazz_s
+  jazz_t
+  jazz_u
