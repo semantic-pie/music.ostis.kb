@@ -1,0 +1,16 @@
+type: domain
+system: classic_music
+
+en: classic music genre
+ru: жанра классической музыки
+
+parent: music_genres
+
+max: |
+  classic_music
+
+concepts: |
+    classical_music
+    symphony
+    opera
+    cantata

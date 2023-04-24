@@ -1,0 +1,17 @@
+type: domain
+system: music
+
+en: music
+ru: музыки
+
+parent: media
+
+children: |
+  music_theory
+  music_genres
+  music_instruments
+
+max: |
+  music
+
+concepts: |

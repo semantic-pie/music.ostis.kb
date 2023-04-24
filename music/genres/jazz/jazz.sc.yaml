@@ -1,0 +1,18 @@
+type: domain
+system: jazz
+
+en: jazz genre
+ru: жанра джаз
+
+parent: music_genres
+
+max: |
+  jazz
+
+concepts: |
+  jazz_6
+  jazz_5
+  jazz_4
+  jazz_3
+  jazz_2
+  jazz_1

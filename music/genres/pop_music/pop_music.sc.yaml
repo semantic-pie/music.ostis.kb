@@ -1,0 +1,18 @@
+type: domain
+system: pop_music
+
+en: pop music genre
+ru: жанра популярной музыки
+
+parent: music_genres
+
+max: |
+  pop_music
+
+concepts: |
+  pop_music6
+  pop_music5
+  pop_music4
+  pop_music3
+  pop_music2
+  pop_music1
