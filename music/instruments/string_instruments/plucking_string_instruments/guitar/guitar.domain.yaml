@@ -1,0 +1,17 @@
+en: guitar
+ru: гитары
+
+parent: plucking_string_instruments
+
+children: |
+  guitar
+  electro_guitar
+  bass
+  
+
+max: |
+  guitar
+  
+
+concepts: |
+  guitar

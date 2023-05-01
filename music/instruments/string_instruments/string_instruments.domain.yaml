@@ -1,0 +1,18 @@
+en: string instruments
+ru: струнных инструментов
+
+parent: music_instruments
+
+children: |
+  bowed_string_instruments
+  plucking_string_instruments
+  
+
+max: |
+  string_instrument
+  
+
+concepts: |
+  string_instrument
+  bowed_string_instrument
+  plucking_string_instrument
