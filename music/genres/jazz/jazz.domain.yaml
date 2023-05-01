@@ -1,0 +1,15 @@
+en: jazz genre
+ru: жанра джаз
+
+parent: music_genres
+
+max: |
+  jazz
+
+concepts: |
+  jazz_w
+  jazz_q
+  jazz_r
+  jazz_s
+  jazz_t
+  jazz_u

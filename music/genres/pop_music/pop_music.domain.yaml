@@ -1,0 +1,14 @@
+en: pop music genre
+ru: жанра популярной музыки
+
+parent: music_genres
+
+max: |
+  pop_music
+
+concepts: |
+  pop_musicq
+  pop_musicw
+  pop_musice
+  pop_musicr
+  pop_musict

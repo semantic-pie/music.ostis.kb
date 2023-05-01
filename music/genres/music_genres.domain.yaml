@@ -1,0 +1,29 @@
+en: music genres
+ru: музыкальных жанров
+
+parent: muisic
+
+children: |
+  classic_music
+  rock
+  jazz
+  pop_music
+  electronic_music
+
+max: |
+  music_genre
+  
+
+concepts: |
+  classic_music
+  rock
+  jazz
+  pop_music
+  electronic_music
+
+nrels: |
+  stylistic_origin
+  place_of_origin
+  year_of_origin
+  derivative_form
+  used_musical_instruments

@@ -1,0 +1,15 @@
+ru: музыки
+en: music
+
+max: | 
+  music
+
+parent: media
+
+children: |
+  music_genres
+  music_instruments
+  music_theory
+
+concepts: |
+  music

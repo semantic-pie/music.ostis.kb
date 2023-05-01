@@ -1,0 +1,66 @@
+section_subject_domain_of_pop_music
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанра популярной музыки] (* <- lang_ru;; *);
+	[Section. Subject domain of pop music genre] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	...
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_pop_music;
+	concept_pop_music;
+	concept_pop_musicq;
+	concept_pop_musicw;
+	concept_pop_musice;
+	concept_pop_musicr;
+	concept_pop_musict;
+	...;
+	...;;
+
+section_subject_domain_of_pop_music=[*
+	subject_domain_of_pop_music
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область жанра популярной музыки] (* <- lang_ru;; *);
+		[Subject Domain of pop music genre] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_pop_music;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_pop_musicq;
+		concept_pop_musicw;
+		concept_pop_musice;
+		concept_pop_musicr;
+		concept_pop_musict;
+
+	-> rrel_explored_relation:
+		...;
+		...;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_genres;
+
+	=> nrel_private_subject_domain:
+		...;;
+*];;
+
+
+sc_node_class ->
+	concept_pop_music;
+	concept_pop_musicq;
+	concept_pop_musicw;
+	concept_pop_musice;
+	concept_pop_musicr;
+	concept_pop_musict;;
+
+sc_node_role_relation ->
+	...;;
+
+sc_node_norole_relation ->
+	...;;
