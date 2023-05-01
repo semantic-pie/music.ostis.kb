@@ -4,14 +4,12 @@ ru: гитары
 parent: plucking_string_instruments
 
 children: |
-  guitar
+  classic_guitar
   electro_guitar
-  bass
-  
+  bass_guitar
 
 max: |
   guitar
-  
 
 concepts: |
   guitar
