@@ -1,0 +1,16 @@
+en: percussion-keyboard instruments
+ru: ударно-клавишных инструментов
+
+parent: keyboard_instruments
+
+children: |
+  piano
+  clavichord
+
+max: |
+  keyboard_instrument
+
+concepts: |
+  keyboard_instrument
+  piano
+  clavichord
