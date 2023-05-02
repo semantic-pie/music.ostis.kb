@@ -1,0 +1,16 @@
+ru: камерный поп
+en: chamber pop
+definition:
+  ru:
+    Камерный поп это жанр поп-музыки, который характеризуется использованием элементов классической музыки, таких как струнные и духовые инструменты, и наличием хоровых аранжировок. Он отличается от других жанров поп-музыки более комплексными композициями и музыкальными аранжировками
+  en:
+    Chamber pop is a genre of pop music that is characterized by the use of classical music elements, such as string and wind instruments, and choral arrangements. It differs from other genres of pop music with more complex compositions and musical arrangements
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

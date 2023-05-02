@@ -1,0 +1,16 @@
+ru: евро-поп
+en: euro pop
+definition:
+  ru:
+    Евро-поп это популярный музыкальный жанр, который появился в Европе и быстро стал популярным во всем мире. Характеризуется использованием синтезаторов, электронных инструментов и простых мелодий
+  en:
+    Euro pop is a popular music genre that originated in Europe and quickly became popular worldwide. It is characterized by the use of synthesizers, electronic instruments, and simple melodies
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

@@ -1,0 +1,14 @@
+ru: тин-поп
+en: teen pop
+definition:
+  ru: Тин-поп популярный музыкальный жанр, направленный на подростковую аудиторию. Характеризуется яркой мелодикой, простыми текстами и динамичным ритмом, а также активным использованием электронных средств звукозаписи
+  en: Teen pop is a popular music genre aimed at a teenage audience. It is characterized by bright melody, simple lyrics and dynamic rhythm, as well as active use of electronic recording techniques
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments
