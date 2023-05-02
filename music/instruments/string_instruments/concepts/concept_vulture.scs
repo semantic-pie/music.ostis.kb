@@ -1,7 +1,7 @@
 concept_vulture
 => nrel_main_idtf:
-	[Гриф] (* <- lang_ru;; *);
-	[Vultute] (* <- lang_en;; *);;
+	[гриф] (* <- lang_ru;; *);
+	[vultute] (* <- lang_en;; *);;
 
 definition -> definition_of_vulture (*
 	-> rrel_key_sc_element: concept_vulture;;
@@ -12,8 +12,8 @@ definition -> definition_of_vulture (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Гриф)] (* <- lang_ru;; *);
-		[Def. (Vultute)] (* <- lang_en;; *);;
+		[Опр. (гриф)] (* <- lang_ru;; *);
+		[Def. (vultute)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_string;

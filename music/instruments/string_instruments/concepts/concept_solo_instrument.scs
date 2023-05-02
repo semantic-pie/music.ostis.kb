@@ -1,7 +1,7 @@
 concept_solo_instrument
 => nrel_main_idtf:
-	[Сольный инструмент] (* <- lang_ru;; *);
-	[Solo instrument] (* <- lang_en;; *);;
+	[сольный инструмент] (* <- lang_ru;; *);
+	[solo instrument] (* <- lang_en;; *);;
 
 definition -> definition_of_solo_instrument (*
 	-> rrel_key_sc_element: concept_solo_instrument;;
@@ -12,8 +12,8 @@ definition -> definition_of_solo_instrument (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Сольный инструмент)] (* <- lang_ru;; *);
-		[Def. (Solo instrument)] (* <- lang_en;; *);;
+		[Опр. (сольный инструмент)] (* <- lang_ru;; *);
+		[Def. (solo instrument)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_solo

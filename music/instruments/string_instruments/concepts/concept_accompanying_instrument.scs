@@ -1,7 +1,7 @@
 concept_accompanying_instrument
 => nrel_main_idtf:
-	[Аккомпанирающий инструмент] (* <- lang_ru;; *);
-	[Accompanying instrument] (* <- lang_en;; *);;
+	[аккомпанирающий инструмент] (* <- lang_ru;; *);
+	[accompanying instrument] (* <- lang_en;; *);;
 
 definition -> definition_of_accompanying_instrument (*
 	-> rrel_key_sc_element: concept_accompanying_instrument;;
@@ -12,8 +12,8 @@ definition -> definition_of_accompanying_instrument (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Аккомпанирающий инструмент)] (* <- lang_ru;; *);
-		[Def. (Accompanying instrument)] (* <- lang_en;; *);;
+		[Опр. (аккомпанирающий инструмент)] (* <- lang_ru;; *);
+		[Def. (accompanying instrument)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_accompanying

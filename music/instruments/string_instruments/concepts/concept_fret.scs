@@ -1,7 +1,7 @@
 concept_fret
 => nrel_main_idtf:
-	[Лад] (* <- lang_ru;; *);
-	[Fret] (* <- lang_en;; *);;
+	[лад] (* <- lang_ru;; *);
+	[fret] (* <- lang_en;; *);;
 
 definition -> definition_of_fret (*
 	-> rrel_key_sc_element: concept_fret;;
@@ -12,8 +12,8 @@ definition -> definition_of_fret (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Лад)] (* <- lang_ru;; *);
-		[Def. (Fret)] (* <- lang_en;; *);;
+		[Опр. (лад)] (* <- lang_ru;; *);
+		[Def. (fret)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_string;
