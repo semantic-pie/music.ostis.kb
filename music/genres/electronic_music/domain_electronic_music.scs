@@ -30,8 +30,7 @@ section_subject_domain_of_electronic_music
 	concept_idm;
 	concept_glitch;
 	concept_vaporwave;
-	concept_hardstyle;
-	concept_hardcore;;
+	concept_hardstyle;;
 
 section_subject_domain_of_electronic_music=[*
 	subject_domain_of_electronic_music
@@ -67,7 +66,6 @@ section_subject_domain_of_electronic_music=[*
 		concept_glitch;
 		concept_vaporwave;
 		concept_hardstyle;
-		concept_hardcore;
 
 	<= nrel_private_subject_domain:
 		subject_domain_of_music_genres;;
@@ -96,5 +94,4 @@ sc_node_class ->
 	concept_idm;
 	concept_glitch;
 	concept_vaporwave;
-	concept_hardstyle;
-	concept_hardcore;;
+	concept_hardstyle;;
