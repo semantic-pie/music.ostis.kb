@@ -16,7 +16,6 @@ section_subject_domain_of_pop_music
 	concept_power_pop;
 	concept_indie_pop;
 	concept_chamber_pop;
-	concept_baroque_pop;
 	concept_art_pop;
 	concept_j_pop;
 	concept_k_pop;
@@ -52,7 +51,6 @@ section_subject_domain_of_pop_music=[*
 		concept_power_pop;
 		concept_indie_pop;
 		concept_chamber_pop;
-		concept_baroque_pop;
 		concept_art_pop;
 		concept_j_pop;
 		concept_k_pop;
@@ -82,7 +80,6 @@ sc_node_class ->
 	concept_power_pop;
 	concept_indie_pop;
 	concept_chamber_pop;
-	concept_baroque_pop;
 	concept_art_pop;
 	concept_j_pop;
 	concept_k_pop;
