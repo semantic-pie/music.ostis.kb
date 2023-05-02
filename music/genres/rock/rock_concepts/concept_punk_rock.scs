@@ -1,10 +1,10 @@
-concept_rock
+concept_punk_rock
 => nrel_main_idtf:
-	[рок] (* <- lang_ru;; *);
-	[rock] (* <- lang_en;; *);;
+	[панк-рок] (* <- lang_ru;; *);
+	[punck-rock] (* <- lang_en;; *);;
 
-definition -> definition_of_rock (*
-	-> rrel_key_sc_element: concept_rock;;
+definition -> definition_of_punk_rock (*
+	-> rrel_key_sc_element: concept_punk_rock;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Рок это жанр популярной музыки, характеризующийся громкими гитарными звуками, мощными ударными ритмами и выразительным вокалом] (* <- lang_ru;; *);;
@@ -12,8 +12,8 @@ definition -> definition_of_rock (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (рок)] (* <- lang_ru;; *);
-		[Def. (rock)] (* <- lang_en;; *);;
+		[Опр. (панк-рок)] (* <- lang_ru;; *);
+		[Def. (punck-rock)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_music_genre;
