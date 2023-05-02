@@ -1,0 +1,12 @@
+en: music notation
+ru: нотной грамоты
+
+parent: music_theory_sections
+
+max: |
+  music_notation
+
+concepts: |
+  tremble_clef
+  alto_clef
+  bass_clef
