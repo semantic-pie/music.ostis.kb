@@ -59,5 +59,67 @@ graph LR;
 
 
         %% Percussion
-      
+
+      %% Genres
+        Genres --> Rock([Rock])
+        Genres --> Classic_Music([Classic Music])
+        Genres --> Electronic_Music([Electronic Music])
+        Genres --> Jazz([Jazz])
+        Genres --> Pop_Music([Pop Music])
+
+        %% Rock
+          Rock --> Garage_Rock([Garage Rock])
+          Rock --> Hard_Rock([Hard Rock])
+          Rock --> Punk_Rock([Punk Rock])
+          Rock --> Grunge([Garage])
+          Rock --> Psychedelic_Rock([Psychedelic Rock])
+          Rock --> Alternative_Rock([Alternative Rock])
+          Rock --> Post_Rock([Post Rock])
+          Rock --> Progressive_Rock([Progressive Rock])
+          Rock --> Math_Rock([Math Rock])
+          Rock --> Heavy_Metal([Heavy Metal])
+          Rock --> Death_Metal([Death Metal])
+          Rock --> Black_Metal([Black Metal])
+          Rock --> Progressive_Metal([Progressive Metal])
+          Rock --> Doom_Metal([Doom Metal])
+          Rock --> Power_Metal([Power Metal])
+          Rock --> Folk_Metal([Folk Metal])
+          Rock --> Core_Metal([Core Metal])
+          Rock --> Nu_Metal([Nu Metal])
+          Rock --> Post_Metal([Post Metal])
+          Rock --> Indie_Rock([Indie Rock])
+          Rock --> Blues_Rock([Blues Rock])
+
+        %% Classic
+          Classic_Music --> Vanguard([Vanguard])
+          Classic_Music --> Ballet([Ballet])
+          Classic_Music --> Baroque([Baroque])
+          Classic_Music --> Cantata([Cantata])
+          Classic_Music --> Chamber_Music([Chamber Music])
+          Classic_Music --> String_Quartet([String Quartet])
+          Classic_Music --> Singing([Singing])
+          Classic_Music --> Chorus([Chorus])
+          Classic_Music --> Classic_Crossover([Classic Crossover])
+          Classic_Music --> Concert([Concert])
+          Classic_Music --> Concerto_Grosso([Concerto Grosso])
+          Classic_Music --> Modern_Classics([Modern Classics])
+          Classic_Music --> Ancient_Music([Ancient Music])
+          Classic_Music --> Expressionism([Expressionism])
+          Classic_Music --> High_Classics([High Classics])
+          Classic_Music --> Impressionism([Impressionism])
+          Classic_Music --> Mass_Requiem([Mass Requiem])
+          Classic_Music --> Medieval([Medieval])
+          Classic_Music --> Minimalism([Minimalism])
+          Classic_Music --> Modern_Composition([Modern Composition])
+          Classic_Music --> Modern_Classics([Modern Classics])
+          Classic_Music --> Opera([Opera])
+          Classic_Music --> Oratorio([Oratorio])
+          Classic_Music --> Orchestral([Orchestral])
+          Classic_Music --> Organum([Organum])
+          Classic_Music --> Renaissance([Renaissance])
+          Classic_Music --> Romance([Romance])
+          Classic_Music --> Sonata([Sonata])
+          Classic_Music --> Symphony([Symphony])
+          Classic_Music --> Wedding_Music([Wedding Music])
+   
 ```
