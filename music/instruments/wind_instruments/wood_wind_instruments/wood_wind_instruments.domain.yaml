@@ -5,7 +5,7 @@ parent: wind_instruments
 
 children: |
   labial_wind_natural_instruments
-  reed_wind_slide_instruments
+  reed_wind_instruments
   
 
 max: |
@@ -15,4 +15,4 @@ max: |
 concepts: |
   wind_instrument
   labial_wind_natural_instrument
-  reed_wind_slide_instrument
+  reed_wind_instrument
