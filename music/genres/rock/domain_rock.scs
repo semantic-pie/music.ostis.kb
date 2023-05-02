@@ -19,7 +19,7 @@ section_subject_domain_of_rock
 	concept_progressive_rock;
 	concept_math_rock;
 	concept_heavy_metal;
-	concept_thrash_metal;
+	concept_trash_metal;
 	concept_death_metal;
 	concept_black_metal;
 	concept_progressive_metal;
@@ -55,7 +55,7 @@ section_subject_domain_of_rock=[*
 		concept_progressive_rock;
 		concept_math_rock;
 		concept_heavy_metal;
-		concept_thrash_metal;
+		concept_trash_metal;
 		concept_death_metal;
 		concept_black_metal;
 		concept_progressive_metal;
@@ -85,7 +85,7 @@ sc_node_class ->
 	concept_progressive_rock;
 	concept_math_rock;
 	concept_heavy_metal;
-	concept_thrash_metal;
+	concept_trash_metal;
 	concept_death_metal;
 	concept_black_metal;
 	concept_progressive_metal;
