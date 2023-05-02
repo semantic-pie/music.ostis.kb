@@ -4,16 +4,19 @@ ru: струнных щипковых инструментов
 parent: string_instruments
 
 children: |
-  guitar
-  psaltery
-  banjo
-  domra
+  viola
+  violin
+  cello
+  double_bass
   
 
 max: |
-  plucking_string_instrument
+  bowed_string_instrument
   
 
 concepts: |
-  plucking_string_instrument
-  guitar
+  string_instrument
+  violin
+  cello
+  viola
+  double_bass
