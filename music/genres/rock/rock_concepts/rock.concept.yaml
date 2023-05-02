@@ -1,0 +1,12 @@
+ru: рок
+en: rock
+
+definition:
+  ru: 
+    Рок это жанр популярной музыки, характеризующийся громкими гитарными звуками, мощными ударными ритмами и выразительным вокалом
+  en:
+    Rock is a genre of popular music characterized by loud guitar sounds, powerful percussive rhythms and expressive vocals
+  using:
+    concepts: |
+      empty
+
