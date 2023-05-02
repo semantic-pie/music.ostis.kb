@@ -1,0 +1,16 @@
+ru: афро-поп
+en: afro pop
+definition:
+  ru:
+    Афро-поп это популярный музыкальный жанр, который объединяет элементы африканской музыки и поп-музыки. Характеризуется использованием традиционных музыкальных инструментов и ритмов, а также современных звуковых эффектов
+  en:
+    Afro pop is a popular music genre that combines elements of African music with pop music. It is characterized by the use of traditional musical instruments and rhythms, as well as modern sound effects
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

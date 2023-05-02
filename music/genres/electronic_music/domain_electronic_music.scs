@@ -3,7 +3,7 @@ section_subject_domain_of_electronic_music
 <- atomic_section;
 
 => nrel_main_idtf:
-	[Раздел. Предметная область жанра популярной музыки] (* <- lang_ru;; *);
+	[Раздел. Предметная область жанра электронной музыки] (* <- lang_ru;; *);
 	[Section. Subject domain of electronic music genre] (* <- lang_en;; *);
 
 <- rrel_key_sc_element:
@@ -37,7 +37,7 @@ section_subject_domain_of_electronic_music=[*
 	<- sc_node_struct;
 	<- subject_domain;
 	=> nrel_main_idtf:
-		[Предметная область жанра популярной музыки] (* <- lang_ru;; *);
+		[Предметная область жанра электронной музыки] (* <- lang_ru;; *);
 		[Subject Domain of electronic music genre] (* <- lang_en;; *);
 
 	-> rrel_maximum_studied_object_class:
