@@ -1,0 +1,13 @@
+ru: ню-метал
+en: nu metal
+definition:
+  ru: Ню-метал жанр рок-музыки, который объединяет элементы хип-хопа, гранжа, индастриала и фанка с гитарными риффами и агрессивным вокалом. Ню-метал часто использует сэмплы, электронные инструменты и динамичные переходы между стилями
+  en: Nu metal is a genre of rock music that combines elements of hip hop, grunge, industrial, and funk with heavy guitar riffs and aggressive vocals. Nu metal often utilizes samples, electronic instruments, and dynamic transitions between styles
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form

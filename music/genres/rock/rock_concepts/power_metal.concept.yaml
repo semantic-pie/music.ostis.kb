@@ -1,0 +1,16 @@
+ru: пауэр-метал
+en: power metal
+definition:
+  ru:
+    Пауэр-метал это жанр метал-музыки, который характеризуется использованием быстрых темпов, ярких мелодий, сильным вокалом и обширным использованием гитарных соло
+  en:
+    Power metal is a subgenre of heavy metal music that is characterized by fast tempos, bright melodies, powerful vocals, and extensive use of guitar solos
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

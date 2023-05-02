@@ -1,0 +1,16 @@
+ru: блэк-метал
+en: black metal
+definition:
+  ru:
+    Блэк-метал это жанр экстремальной музыки, который характеризуется быстрыми темпами, громкими гитарными рифами, резкими переходами и характерным вокалом с использованием скриминга и шрайка
+  en:
+    Black metal is a genre of extreme music that is characterized by fast tempos, loud guitar riffs, abrupt transitions, and distinctive vocals using screaming and shrieking techniques
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments
