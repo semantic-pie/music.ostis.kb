@@ -15,9 +15,16 @@ section_subject_domain_of_music
 <- rrel_key_sc_element:
 	subject_domain_of_music;
 	concept_music;
-	concept_music;
-	...;
-	...;;
+	concept_melody;
+	concept_harmony;
+	concept_rhythm;
+	concept_timbre;
+	concept_tempo;
+	concept_chord;
+	concept_interval;
+	concept_musical_genre;
+	concept_music_instrument;
+	concept_music_theory;;
 
 section_subject_domain_of_music=[*
 	subject_domain_of_music
@@ -31,11 +38,16 @@ section_subject_domain_of_music=[*
 		concept_music;
 
 	-> rrel_not_maximum_studied_object_class:
-		concept_music;
-
-	-> rrel_explored_relation:
-		...;
-		...;
+		concept_melody;
+		concept_harmony;
+		concept_rhythm;
+		concept_timbre;
+		concept_tempo;
+		concept_chord;
+		concept_interval;
+		concept_musical_genre;
+		concept_music_instrument;
+		concept_music_theory;
 
 	<= nrel_private_subject_domain:
 		subject_domain_of_media;
@@ -46,13 +58,15 @@ section_subject_domain_of_music=[*
 		subject_domain_of_music_theory;;
 *];;
 
-
 sc_node_class ->
 	concept_music;
-	concept_music;;
-
-sc_node_role_relation ->
-	...;;
-
-sc_node_norole_relation ->
-	...;;
+	concept_melody;
+	concept_harmony;
+	concept_rhythm;
+	concept_timbre;
+	concept_tempo;
+	concept_chord;
+	concept_interval;
+	concept_musical_genre;
+	concept_music_instrument;
+	concept_music_theory;;
