@@ -1,0 +1,40 @@
+section_subject_domain_of_music_notation
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область нотной грамоты] (* <- lang_ru;; *);
+	[Section. Subject domain of music notation] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_music_notation;
+	concept_music_notation;
+	concept_tremble_clef;
+	concept_alto_clef;
+	concept_bass_clef;;
+
+section_subject_domain_of_music_notation=[*
+	subject_domain_of_music_notation
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область нотной грамоты] (* <- lang_ru;; *);
+		[Subject Domain of music notation] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_music_notation;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_tremble_clef;
+		concept_alto_clef;
+		concept_bass_clef;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_theory_sections;;
+*];;
+
+sc_node_class ->
+	concept_music_notation;
+	concept_tremble_clef;
+	concept_alto_clef;
+	concept_bass_clef;;
