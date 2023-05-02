@@ -1,7 +1,7 @@
 concept_string
 => nrel_main_idtf:
-	[Струна] (* <- lang_ru;; *);
-	[String] (* <- lang_en;; *);;
+	[струна] (* <- lang_ru;; *);
+	[string] (* <- lang_en;; *);;
 
 definition -> definition_of_string (*
 	-> rrel_key_sc_element: concept_string;;
@@ -12,8 +12,8 @@ definition -> definition_of_string (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Струна)] (* <- lang_ru;; *);
-		[Def. (String)] (* <- lang_en;; *);;
+		[Опр. (струна)] (* <- lang_ru;; *);
+		[Def. (string)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_string_instrument

@@ -1,7 +1,7 @@
 concept_viola
 => nrel_main_idtf:
-	[Альт] (* <- lang_ru;; *);
-	[Viola] (* <- lang_en;; *);;
+	[альт] (* <- lang_ru;; *);
+	[viola] (* <- lang_en;; *);;
 
 definition -> definition_of_viola (*
 	-> rrel_key_sc_element: concept_viola;;
@@ -12,8 +12,8 @@ definition -> definition_of_viola (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Альт)] (* <- lang_ru;; *);
-		[Def. (Viola)] (* <- lang_en;; *);;
+		[Опр. (альт)] (* <- lang_ru;; *);
+		[Def. (viola)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_accompanying

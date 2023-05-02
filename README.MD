@@ -26,12 +26,18 @@ graph LR;
 
         %%String
           String_Instruments --> Plucking_String_Instruments([Plucking String Instruments])
+          String_Instruments --> Bowed_String_Instruments([Bowed String Instruments])
 
             Plucking_String_Instruments --> Guitar([Guitar])
 
               Guitar --> Bass_Guitar([Bass Guitar])
               Guitar --> Electro_Guitar([Electroguitar])
               Guitar --> Classic_Guitar([Classic guitar])
+
+            Bowed_String_Instruments --> Viola([Viola])
+            Bowed_String_Instruments --> Violin([Violin])
+            Bowed_String_Instruments --> Cello([Cello])
+            Bowed_String_Instruments --> Double_Bass([Double Bass])
         
         %% Wind
           Wind_Instruments --> Wood_Wind_Instruments([Wood wind instruments])

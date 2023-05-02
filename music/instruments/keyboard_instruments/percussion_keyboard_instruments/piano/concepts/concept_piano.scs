@@ -1,7 +1,7 @@
 concept_piano
 => nrel_main_idtf:
-	[Фортепиано] (* <- lang_ru;; *);
-	[Piano] (* <- lang_en;; *);
+	[фортепиано] (* <- lang_ru;; *);
+	[piano] (* <- lang_en;; *);
 
 
 => nrel_inclusion:
@@ -17,8 +17,8 @@ definition -> definition_of_piano (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Фортепиано)] (* <- lang_ru;; *);
-		[Def. (Piano)] (* <- lang_en;; *);;
+		[Опр. (фортепиано)] (* <- lang_ru;; *);
+		[Def. (piano)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_music_instrument;

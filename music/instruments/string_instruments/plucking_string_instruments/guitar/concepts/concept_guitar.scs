@@ -1,7 +1,7 @@
 concept_guitar
 => nrel_main_idtf:
-	[Гитара] (* <- lang_ru;; *);
-	[Guitar] (* <- lang_en;; *);
+	[гитара] (* <- lang_ru;; *);
+	[guitar] (* <- lang_en;; *);
 
 
 => nrel_inclusion:
@@ -18,8 +18,8 @@ definition -> definition_of_guitar (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Гитара)] (* <- lang_ru;; *);
-		[Def. (Guitar)] (* <- lang_en;; *);;
+		[Опр. (гитара)] (* <- lang_ru;; *);
+		[Def. (guitar)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_string;

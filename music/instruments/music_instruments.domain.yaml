@@ -4,7 +4,7 @@ ru: музыкальных инструментов
 parent: music
 
 children: |
-  string_intruments
+  string_instruments
   keyboard_instruments
   percussion_instruments
   wind_instruments
