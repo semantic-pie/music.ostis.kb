@@ -13,6 +13,5 @@ max: |
   
 
 concepts: |
-  string_instrument
   bowed_string_instrument
   plucking_string_instrument
