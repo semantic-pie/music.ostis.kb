@@ -6,4 +6,6 @@ definition:
     Гаражный рок это жанр рок-музыки, который характеризуется простой мелодикой, дерзкими гитарными риффами, нередко записанными в домашних условиях, а также резким, неотесанным звучанием
   en:
     Garage rock is a genre of rock music that is characterized by a simple technique, audacious guitar riffs, often recorded at home, as well as a sharp, uncouth sound
-    
+  using:
+    concepts: |
+      empty
