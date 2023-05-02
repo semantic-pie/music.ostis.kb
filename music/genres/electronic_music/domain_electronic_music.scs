@@ -6,21 +6,32 @@ section_subject_domain_of_electronic_music
 	[Раздел. Предметная область жанра популярной музыки] (* <- lang_ru;; *);
 	[Section. Subject domain of electronic music genre] (* <- lang_en;; *);
 
-<= nrel_section_decomposition: {
-	...
-};
-
 <- rrel_key_sc_element:
 	subject_domain_of_electronic_music;
 	concept_electronic_music;
-	concept_electronic_musicq;
-	concept_electronic_musicw;
-	concept_electronic_musice;
-	concept_electronic_musicr;
-	concept_electronic_musict;
-	concept_electronic_musicy;
-	...;
-	...;;
+	concept_house;
+	concept_techno;
+	concept_trance;
+	concept_breakbeat;
+	concept_jungle;
+	concept_drum_and_bass;
+	concept_dubstep;
+	concept_garage;
+	concept_grime;
+	concept_ambient;
+	concept_downtempo;
+	concept_trip_hop;
+	concept_synthwave;
+	concept_industrial;
+	concept_ebm;
+	concept_synthpop;
+	concept_electro;
+	concept_nu_disco;
+	concept_idm;
+	concept_glitch;
+	concept_vaporwave;
+	concept_hardstyle;
+	concept_hardcore;;
 
 section_subject_domain_of_electronic_music=[*
 	subject_domain_of_electronic_music
@@ -34,36 +45,56 @@ section_subject_domain_of_electronic_music=[*
 		concept_electronic_music;
 
 	-> rrel_not_maximum_studied_object_class:
-		concept_electronic_musicq;
-		concept_electronic_musicw;
-		concept_electronic_musice;
-		concept_electronic_musicr;
-		concept_electronic_musict;
-		concept_electronic_musicy;
-
-	-> rrel_explored_relation:
-		...;
-		...;
+		concept_house;
+		concept_techno;
+		concept_trance;
+		concept_breakbeat;
+		concept_jungle;
+		concept_drum_and_bass;
+		concept_dubstep;
+		concept_garage;
+		concept_grime;
+		concept_ambient;
+		concept_downtempo;
+		concept_trip_hop;
+		concept_synthwave;
+		concept_industrial;
+		concept_ebm;
+		concept_synthpop;
+		concept_electro;
+		concept_nu_disco;
+		concept_idm;
+		concept_glitch;
+		concept_vaporwave;
+		concept_hardstyle;
+		concept_hardcore;
 
 	<= nrel_private_subject_domain:
-		subject_domain_of_electronic_music;
-
-	=> nrel_private_subject_domain:
-		...;;
+		subject_domain_of_music_genres;;
 *];;
-
 
 sc_node_class ->
 	concept_electronic_music;
-	concept_electronic_musicq;
-	concept_electronic_musicw;
-	concept_electronic_musice;
-	concept_electronic_musicr;
-	concept_electronic_musict;
-	concept_electronic_musicy;;
-
-sc_node_role_relation ->
-	...;;
-
-sc_node_norole_relation ->
-	...;;
+	concept_house;
+	concept_techno;
+	concept_trance;
+	concept_breakbeat;
+	concept_jungle;
+	concept_drum_and_bass;
+	concept_dubstep;
+	concept_garage;
+	concept_grime;
+	concept_ambient;
+	concept_downtempo;
+	concept_trip_hop;
+	concept_synthwave;
+	concept_industrial;
+	concept_ebm;
+	concept_synthpop;
+	concept_electro;
+	concept_nu_disco;
+	concept_idm;
+	concept_glitch;
+	concept_vaporwave;
+	concept_hardstyle;
+	concept_hardcore;;
