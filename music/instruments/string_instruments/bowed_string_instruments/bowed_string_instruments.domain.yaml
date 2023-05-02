@@ -1,18 +1,10 @@
-en: plucking string instruments
-ru: струнных щипковых инструментов
+en: bowed string instruments
+ru: струнных смычковых инструментов
 
 parent: string_instruments
 
-children: |
-  viola
-  violin
-  cello
-  double_bass
-  
-
 max: |
   bowed_string_instrument
-  
 
 concepts: |
   string_instrument
