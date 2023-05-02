@@ -22,7 +22,6 @@ section_subject_domain_of_music_genres
 	concept_jazz;
 	concept_pop_music;
 	concept_electronic_music;
-	...;
 	nrel_stylistic_origin;
 	nrel_place_of_origin;
 	nrel_year_of_origin;
@@ -48,7 +47,6 @@ section_subject_domain_of_music_genres=[*
 		concept_electronic_music;
 
 	-> rrel_explored_relation:
-		...;
 		nrel_stylistic_origin;
 		nrel_place_of_origin;
 		nrel_year_of_origin;
@@ -56,7 +54,7 @@ section_subject_domain_of_music_genres=[*
 		nrel_used_musical_instruments;
 
 	<= nrel_private_subject_domain:
-		subject_domain_of_muisic;
+		subject_domain_of_music;
 
 	=> nrel_private_subject_domain:
 		subject_domain_of_classic_music;
@@ -66,7 +64,6 @@ section_subject_domain_of_music_genres=[*
 		subject_domain_of_electronic_music;;
 *];;
 
-
 sc_node_class ->
 	concept_music_genre;
 	concept_classic_music;
@@ -74,9 +71,6 @@ sc_node_class ->
 	concept_jazz;
 	concept_pop_music;
 	concept_electronic_music;;
-
-sc_node_role_relation ->
-	...;;
 
 sc_node_norole_relation ->
 	nrel_stylistic_origin;

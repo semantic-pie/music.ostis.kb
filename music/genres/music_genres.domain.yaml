@@ -1,7 +1,7 @@
 en: music genres
 ru: музыкальных жанров
 
-parent: muisic
+parent: music
 
 children: |
   classic_music

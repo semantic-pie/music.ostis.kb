@@ -1,15 +1,32 @@
 en: electronic music genre
 ru: жанра популярной музыки
 
-parent: electronic_music
+parent: music_genres
 
 max: |
   electronic_music
 
 concepts: |
-  electronic_musicq
-  electronic_musicw
-  electronic_musice
-  electronic_musicr
-  electronic_musict
-  electronic_musicy
+  house
+  techno
+  trance
+  breakbeat
+  jungle
+  drum_and_bass
+  dubstep
+  garage
+  grime
+  ambient
+  downtempo
+  trip_hop
+  synthwave
+  industrial
+  ebm
+  synthpop
+  electro
+  nu_disco
+  idm
+  glitch
+  vaporwave
+  hardstyle
+  hardcore
