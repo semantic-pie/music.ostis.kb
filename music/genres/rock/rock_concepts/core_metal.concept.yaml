@@ -1,0 +1,14 @@
+ru: кор-метал
+en: metal-core
+definition:
+  ru: Кор-метал обобщающее название для многих поджанров экстремального метала, таких как металкор, дезкор, грайндкор, металл-хардкор и др. Основные признаки кор-метала это быстрый темп, тяжелые гитарные риффы, агрессивный вокал и частое использование бластбитов
+  en: Core metal is an umbrella term for many subgenres of extreme metal, such as metalcore, deathcore, grindcore, metal-hardcore, and others. The main characteristics of core metal are fast tempo, heavy guitar riffs, aggressive vocals, and frequent use of blast beats
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

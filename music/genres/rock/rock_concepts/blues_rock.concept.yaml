@@ -1,0 +1,16 @@
+ru: блюз-рок
+en: blues rock
+definition:
+  ru:
+    Блюз-рок это жанр рок-музыки, который сочетает в себе элементы блюза и рока. Характеризуется присутствием характерных блюзовых гитарных риффов и соло, гармоники, энергичной ритм-секции и часто более простой, но задорной мелодикой
+  en:
+    Blues rock is a genre of rock music that combines elements of blues and rock. It is characterized by the presence of typical blues guitar riffs and solos, harmonica, energetic rhythm section, and often simpler but lively melodies
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

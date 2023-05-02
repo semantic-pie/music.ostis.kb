@@ -1,0 +1,16 @@
+ru: дум-метал
+en: doom metal
+definition:
+  ru:
+    Дум-метал это жанр метал-музыки, который характеризуется медленными темпами, глубокими громкими гитарными звуками, густым звуковым оформлением и мрачными текстами
+  en:
+    Doom metal is a subgenre of heavy metal music that is characterized by slow tempos, deep and heavy guitar sounds, dense soundscapes, and often dark lyrics
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

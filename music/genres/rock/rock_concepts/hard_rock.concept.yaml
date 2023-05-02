@@ -8,4 +8,10 @@ definition:
     Hard rock is a genre of rock music characterized by a heavier and louder sound than classic rock, with more pronounced guitar riffs, percussive rhythms and aggressive vocals
   using:
     concepts: |
-      empty
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

@@ -16,10 +16,22 @@ definition -> definition_of_alternative_rock (*
 		[Def. (alternative rock)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
-		concept_empty
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
 	};;
 *);;
 
 
 sc_node_class ->
-	concept_empty;;
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;
