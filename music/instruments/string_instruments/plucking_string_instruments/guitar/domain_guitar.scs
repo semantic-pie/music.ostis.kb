@@ -15,7 +15,9 @@ section_subject_domain_of_guitar
 <- rrel_key_sc_element:
 	subject_domain_of_guitar;
 	concept_guitar;
-	concept_guitar;;
+	concept_classic_guitar;
+	concept_electro_guitar;
+	concept_bass_guitar;;
 
 section_subject_domain_of_guitar=[*
 	subject_domain_of_guitar
@@ -29,7 +31,9 @@ section_subject_domain_of_guitar=[*
 		concept_guitar;
 
 	-> rrel_not_maximum_studied_object_class:
-		concept_guitar;
+		concept_classic_guitar;
+		concept_electro_guitar;
+		concept_bass_guitar;
 
 	<= nrel_private_subject_domain:
 		subject_domain_of_plucking_string_instruments;
@@ -42,4 +46,6 @@ section_subject_domain_of_guitar=[*
 
 sc_node_class ->
 	concept_guitar;
-	concept_guitar;;
+	concept_classic_guitar;
+	concept_electro_guitar;
+	concept_bass_guitar;;
