@@ -1,0 +1,11 @@
+ru: половинная нота
+en: half note
+definition:
+  ru: Половинная нота это нота, играемая в течении половины продолжительности целой доли. Нота представляет собой вытянутый незакрашеный овал, с добавленным стержнем, направленным вниз или верх
+  en: A half note is a musical note played for half the duration of a whole note. The note is represented by an elongated, unfilled oval with a stem extending either upward or downward
+  using:
+    concepts: | 
+      music_notation
+    nrels: |
+      note_name
+      duration

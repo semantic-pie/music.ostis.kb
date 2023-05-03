@@ -1,0 +1,10 @@
+ru: восьмая пауза
+en: eighth rest
+definition:
+  ru: Восьмая пауза это символ в нотной грамоте, который обозначает паузу в течение одной восьмой музыкальной доли. Восьмая пауза выглядит как закрашенный кружок, который находится между второй и третьей линиями нотного стана, на которых обычно располагаются ноты си и ми на скрипичном ключе
+  en: An eighth rest is a symbol in musical notation that indicates a pause lasting for one eighth of a musical measure. The eighth rest looks like a filled-in circle located between the second and third lines of the staff, where the notes B and E typically appear on the treble clef
+  using:
+    concepts: |
+      music_notation
+    nrels: |
+      duration

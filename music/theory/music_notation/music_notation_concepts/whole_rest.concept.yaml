@@ -1,0 +1,10 @@
+ru: целая пауза
+en: whole rest
+definition:
+  ru: Целая пауза это символ в нотной грамоте, который обозначает паузу в течение одной полной музыкальной доли. Целая пауза выглядит как большая вертикальная прямая линия, которая находится на средней линии нотного стана, на которой обычно располагается нота соль на скрипичном ключе
+  en: A whole rest is a symbol in musical notation that indicates a pause lasting for one whole musical measure. The whole rest looks like a large vertical line located on the middle line of the staff, where the note G typically appears on the treble clef
+  using:
+    concepts: |
+      music_notation
+    nrels: |
+      duration
