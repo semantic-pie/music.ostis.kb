@@ -8,12 +8,9 @@ children: |
   psaltery
   banjo
   domra
-  
 
 max: |
   plucking_string_instrument
-  
 
 concepts: |
-  plucking_string_instrument
   guitar
