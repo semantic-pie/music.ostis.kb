@@ -1,0 +1,29 @@
+concept_whole_rest
+=> nrel_main_idtf:
+	[целая пауза] (* <- lang_ru;; *);
+	[whole rest] (* <- lang_en;; *);;
+
+definition -> definition_of_whole_rest (*
+	-> rrel_key_sc_element: concept_whole_rest;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Целая пауза это символ в нотной грамоте, который обозначает паузу в течение одной полной музыкальной доли. Целая пауза выглядит как большая вертикальная прямая линия, которая находится на средней линии нотного стана, на которой обычно располагается нота соль на скрипичном ключе] (* <- lang_ru;; *);;
+		-> [A whole rest is a symbol in musical notation that indicates a pause lasting for one whole musical measure. The whole rest looks like a large vertical line located on the middle line of the staff, where the note G typically appears on the treble clef] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (целая пауза)] (* <- lang_ru;; *);
+		[Def. (whole rest)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		nrel_duration
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;;
+
+sc_node_norole_relation ->
+	nrel_duration;;
