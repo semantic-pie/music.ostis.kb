@@ -13,7 +13,6 @@ section_subject_domain_of_keyboard_instruments
 <- rrel_key_sc_element:
 	subject_domain_of_keyboard_instruments;
 	concept_keyboard_instrument;
-	concept_keyboard_instrument;
 	concept_piano;
 	concept_clavichord;;
 
@@ -29,7 +28,6 @@ section_subject_domain_of_keyboard_instruments=[*
 		concept_keyboard_instrument;
 
 	-> rrel_not_maximum_studied_object_class:
-		concept_keyboard_instrument;
 		concept_piano;
 		concept_clavichord;
 
@@ -41,7 +39,6 @@ section_subject_domain_of_keyboard_instruments=[*
 *];;
 
 sc_node_class ->
-	concept_keyboard_instrument;
 	concept_keyboard_instrument;
 	concept_piano;
 	concept_clavichord;;
