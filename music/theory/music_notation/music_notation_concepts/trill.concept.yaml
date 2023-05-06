@@ -9,7 +9,5 @@ definition:
       musical_interval
       major_second
       minor_second
-      major
-      minor
     nrels: |
       performance_technique
