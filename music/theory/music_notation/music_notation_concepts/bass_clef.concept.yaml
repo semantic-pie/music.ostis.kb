@@ -6,6 +6,8 @@ definition:
   using:
     concepts: |
       music_notation
+      baritone
+      double_bass
     nrels: |
       note_pitch
       used_musical_instruments

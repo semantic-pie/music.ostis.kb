@@ -6,6 +6,9 @@ definition:
   using:
     concepts: |
       music_notation
+      violin
+      flute
+      clarinet
     nrels: |
       note_pitch
       used_musical_instruments

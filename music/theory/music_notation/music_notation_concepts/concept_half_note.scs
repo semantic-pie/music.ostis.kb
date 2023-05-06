@@ -7,8 +7,8 @@ definition -> definition_of_half_note (*
 	-> rrel_key_sc_element: concept_half_note;;
 
 	<= nrel_sc_text_translation: ... (*
-		-> [Половинная нота это нота, играемая в течении половины продолжительности целой доли. Нота представляет собой вытянутый незакрашеный овал, с добавленным стержнем, направленным вниз или верх] (* <- lang_ru;; *);;
-		-> [A half note is a musical note played for half the duration of a whole note. The note is represented by an elongated, unfilled oval with a stem extending either upward or downward] (* <- lang_en;; *);;
+		-> [Половинная нота это музыкальный символ, представленный вытянутым незакрашеным овалом, с добавленным стержнем, направленным вниз или верх. Обозначает звучание в течении половины продолжительности целой доли] (* <- lang_ru;; *);;
+		-> [A half note is a musical symbol represented by a stretched-out unfilled oval with a stem either pointing upwards or downwards. It indicates a sound that lasts for half the duration of a whole note] (* <- lang_en;; *);;
 	*);;
 
 	=> nrel_main_idtf:

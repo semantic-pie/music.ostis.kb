@@ -6,6 +6,9 @@ definition:
   using:
     concepts: |
       music_notation
+      alto
+      cello
+      trombone
     nrels: |
       note_pitch
       used_musical_instruments
