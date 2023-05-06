@@ -17,6 +17,8 @@ definition -> definition_of_bass_clef (*
 
 	=> nrel_using_constants: {
 		concept_music_notation;
+		concept_baritone;
+		concept_double_bass;
 		nrel_note_pitch;
 		nrel_used_musical_instruments
 	};;
@@ -24,7 +26,9 @@ definition -> definition_of_bass_clef (*
 
 
 sc_node_class ->
-	concept_music_notation;;
+	concept_music_notation;
+	concept_baritone;
+	concept_double_bass;;
 
 sc_node_norole_relation ->
 	nrel_note_pitch;

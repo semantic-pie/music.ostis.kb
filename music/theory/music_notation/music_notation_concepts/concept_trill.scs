@@ -20,8 +20,6 @@ definition -> definition_of_trill (*
 		concept_musical_interval;
 		concept_major_second;
 		concept_minor_second;
-		concept_major;
-		concept_minor;
 		nrel_performance_technique
 	};;
 *);;
@@ -31,9 +29,7 @@ sc_node_class ->
 	concept_music_notation;
 	concept_musical_interval;
 	concept_major_second;
-	concept_minor_second;
-	concept_major;
-	concept_minor;;
+	concept_minor_second;;
 
 sc_node_norole_relation ->
 	nrel_performance_technique;;

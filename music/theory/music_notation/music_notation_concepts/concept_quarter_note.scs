@@ -7,8 +7,8 @@ definition -> definition_of_quarter_note (*
 	-> rrel_key_sc_element: concept_quarter_note;;
 
 	<= nrel_sc_text_translation: ... (*
-		-> [Четветная нота это музыкальный символ, выглядевший как круглая нота с добавленным стержнем, направленным вниз или верх, и флажком на конце стержня. Обозначает звучание в течение одной полной музыкальной доли] (* <- lang_ru;; *);;
-		-> [A quarter note is a musical symbol that looks like a round note with an added stem pointing up or down and a flag at the end of the stem. It indicates a sound lasting for one quarter of a musical measure] (* <- lang_en;; *);;
+		-> [Четветная нота это музыкальный символ, представленный в виде закрашеного овала с добавленным стержнем, направленным вниз или верх, и флажком на конце стержня. Обозначает звучание в течение одной полной музыкальной доли] (* <- lang_ru;; *);;
+		-> [A quarter note is a musical symbol represented by a filled oval with a stem either pointing upwards or downwards, and a flag at the end of the stem. It indicates a sound that lasts for one full musical measure] (* <- lang_en;; *);;
 	*);;
 
 	=> nrel_main_idtf:

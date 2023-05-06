@@ -7,8 +7,8 @@ definition -> definition_of_quarter_rest (*
 	-> rrel_key_sc_element: concept_quarter_rest;;
 
 	<= nrel_sc_text_translation: ... (*
-		-> [Четвертная пауза это символ в нотной грамоте, который обозначает паузу в течение одной четвертой музыкальной доли. Четвертная пауза выглядит как закрашенный кружок, который находится на третьей линии нотного стана, на которой обычно располагается нота ми на скрипичном ключе] (* <- lang_ru;; *);;
-		-> [A quarter rest is a symbol in musical notation that indicates a pause lasting for one quarter of a musical measure. The quarter rest looks like a filled-in circle located on the third line of the staff, where the note E typically appears on the treble clef] (* <- lang_en;; *);;
+		-> [Четвертная пауза это символ в нотной грамоте, который обозначает паузу в течение одной четвертой музыкальной доли. Представляет собой вертикальный зигзагообразны символ] (* <- lang_ru;; *);;
+		-> [A quarter rest is a symbol in musical notation that denotes a pause during one fourth of a musical measure. Represents a vertical zigzag symbol] (* <- lang_en;; *);;
 	*);;
 
 	=> nrel_main_idtf:
