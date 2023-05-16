@@ -66,6 +66,97 @@ graph LR;
 
         %% Percussion
 
+          
+      %% Theory
+        Theory --> Music_notation([Music notation])
+        Theory --> Analysis([Analysis])
+        Theory --> Performance([Performance])
+        Theory --> Rhythm([Rhythm])
+        Theory --> Melody([Melody])
+        Theory --> Harmony([Harmony])
+
+        %% Music_notation
+          Music_notation --> time_signature([Time signature])
+          Music_notation --> natural([Natural])
+          Music_notation --> sharp([Sharp])
+          Music_notation --> flat([Flat])
+          Music_notation --> tempo([Tempo])
+          Music_notation --> legato([Legato])
+          Music_notation --> trill([Trill])
+          Music_notation --> eighth_note([Eighth note])
+          Music_notation --> quarter_note([Quarter note])
+          Music_notation --> half_note([Half note])
+          Music_notation --> whole_note([Whole note])
+          Music_notation --> eighth_rest([Eighth rest])
+          Music_notation --> quarter_rest([Quarter rest])
+          Music_notation --> half_rest([Half rest])
+          Music_notation --> whole_rest([Whole rest])
+          Music_notation --> bass_clef([Bass clef])
+          Music_notation --> alto_clef([Alto clef])
+          Music_notation --> tremble_clef([Tremble clef])
+
+        %% Performance
+          Performance --> adagio([Adagio])
+          Performance --> allegro([Allegro])
+          Performance --> andante([Andante])
+          Performance --> ritenuto([Ritenuto])
+          Performance --> forte([Forte])
+          Performance --> piano([Piano])
+          Performance --> vibrato([Vibrato])
+          Performance --> flageolet([Flageolet])
+          Performance --> pizzicato([Pizzicato])
+          Performance --> staccato([Staccato])
+          Performance --> accompaniment([Accompaniment])
+
+        %% Rhythm
+          Rhythm --> bar([Bar])
+          Rhythm --> syncopation([Syncopation])
+          Rhythm --> pickup([Pickup])
+          Rhythm --> metronome([Metronome])
+
+        %% Melody
+          Melody --> music_interval([Music interval])
+          %% Music interval
+            music_interval --> unison([Unison])
+            music_interval --> major_second([Major second])
+            music_interval --> minor_second([Minor second])
+            music_interval --> major_third([Major third])
+            music_interval --> minor_third([Minor third])
+            music_interval --> perfect_fourth([Perfect fourth])
+            music_interval --> perfect_fifth([Perfect fifth])
+            music_interval --> major_sisth([Major sisth])
+            music_interval --> minor_sixth([Minor sixth])
+            music_interval --> major_seventh([Major seventh])
+            music_interval --> minor_seventh([Minor seventh])
+            music_interval --> octave([Octave])
+          Melody --> gamma([Gamma])
+          Melody --> timbre([Timbre])
+          Melody --> arpeggio([Arpeggio])
+          Melody --> reprise([Reprise])
+
+        %% Harmony
+          Harmony --> tonality([Tonality])
+          tonality --> C_major([C major])
+          tonality --> D_minor([D m])
+          Harmony --> chord([Chord])
+          Harmony --> fourth_chord([Fourth chord])
+          %% Chord
+            chord --> major_chord([Major chord])
+            chord --> minor_chord([Minor chord])
+
+        %% Analysis
+          Analysis --> modulation([Modulation])
+          Analysis --> structure([Structure])
+          Analysis --> rhetoric([Rhetoric])
+          Analysis --> transposition([Transposition])
+          Analysis --> rhythmic_figures([hythmic figures])
+
+
+    
+
+
+
+
       %% Genres
         Genres --> Rock([Rock])
         Genres --> Classic_Music([Classic Music])
@@ -201,5 +292,6 @@ graph LR;
           Electronic_Music --> Vaporwave(Vaporwave)
           Electronic_Music --> Hardstyle(Hardstyle)
           Electronic_Music --> Hardcore(Hardcore)
+
    
 ```
