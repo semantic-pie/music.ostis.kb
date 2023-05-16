@@ -1,10 +1,16 @@
+"file://girls.png"
+	<- image;
+	=> nrel_image: concept_rock;
+	=> nrel_format: format_png;;
+
 concept_rock
 => nrel_main_idtf:
 	[рок] (* <- lang_ru;; *);
 	[rock] (* <- lang_en;; *);;
 
 definition -> definition_of_rock (*
-	-> rrel_key_sc_element: concept_rock;;
+	-> rrel_key_sc_element: 
+		concept_rock;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Рок это жанр популярной музыки, характеризующийся громкими гитарными звуками, мощными ударными ритмами и выразительным вокалом] (* <- lang_ru;; *);;
