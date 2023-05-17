@@ -1,10 +1,10 @@
-concept_music_genre
+concept_music_genres
 => nrel_main_idtf:
 	[музыкальный жанр] (* <- lang_ru;; *);
 	[music genre] (* <- lang_en;; *);;
 
-definition -> definition_of_music_genre (*
-	-> rrel_key_sc_element: concept_music_genre;;
+definition -> definition_of_music_genres (*
+	-> rrel_key_sc_element: concept_music_genres;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Музыкальный жанр это категория, в которую можно отнести композиции или исполнителей на основе их общих стилевых, ритмических, характерных мелодий и звучания] (* <- lang_ru;; *);;
@@ -25,7 +25,7 @@ definition -> definition_of_music_genre (*
 *);;
 
 statement -> statement_of_statement_title (*
-	-> rrel_key_sc_element: concept_music_genre;;
+	-> rrel_key_sc_element: concept_music_genres;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Каждый жанр имеет свои особенности, включая специфические инструменты, музыкальные формы и характерные элементы стиля] (* <- lang_ru;; *);;
