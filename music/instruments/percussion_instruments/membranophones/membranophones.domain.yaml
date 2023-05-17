@@ -5,7 +5,8 @@ parent: percussion_instruments
 
 max: |
   membranophones_percussion_instrument
-
+children: |
+  drums
 concepts: |
   membranophones
 

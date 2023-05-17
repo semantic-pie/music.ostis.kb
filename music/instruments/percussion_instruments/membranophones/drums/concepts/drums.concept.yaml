@@ -1,15 +1,10 @@
-ru: барабан
-en: drum
+ru: ударная установка
+en: drum kit
 
 definition:
-  ru:
-    Ударный инструмент, звучащим элементов которого служит кожанная или
-    пластиковая мембрана
-
-  en:
-    A percussion instrument whose sounding elements are a leather or plastic
-    membrane
+  ru: Набор ударных инструментов, использующийся одним барабанщиком
+  en: A set of percussion instruments used by one drummer
   using:
     concepts: |
-      sound
-      membrane
+      drummer
+      percussion_instruments
