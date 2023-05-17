@@ -1,7 +1,7 @@
 concept_bass_guitar
 => nrel_main_idtf:
-	[электрогитара] (* <- lang_ru;; *);
-	[electroguitar] (* <- lang_en;; *);;
+	[бас гитара] (* <- lang_ru;; *);
+	[bass guitar] (* <- lang_en;; *);;
 
 definition -> definition_of_bass_guitar (*
 	-> rrel_key_sc_element: concept_bass_guitar;;
@@ -12,8 +12,8 @@ definition -> definition_of_bass_guitar (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (электрогитара)] (* <- lang_ru;; *);
-		[Def. (electroguitar)] (* <- lang_en;; *);;
+		[Опр. (бас гитара)] (* <- lang_ru;; *);
+		[Def. (bass guitar)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_electroguitar;
