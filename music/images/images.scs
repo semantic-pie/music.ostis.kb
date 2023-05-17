@@ -1,4 +1,17 @@
-"file://music.jpg"
-	<- image;
-	=> nrel_image: concept_music;
-	=> nrel_format: format_png;;
+section_subject_domain_of_music
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  [русскоязычный иднт]
+  (* <- lang_ru;; *);
+  [англоязычный иднт]
+  (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://music.jpg"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
