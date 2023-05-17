@@ -1,4 +1,4 @@
 "file://music.jpg"
 	<- image;
-	=> nrel_image: concept_rock;
+	=> nrel_image: concept_music;
 	=> nrel_format: format_png;;
