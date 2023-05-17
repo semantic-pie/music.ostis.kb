@@ -1,0 +1,27 @@
+ru: музыкальный жанр
+en: music genre
+
+statement: 
+  statement_title:
+    title:
+      ru: особенности
+      en: features
+    ru: Каждый жанр имеет свои особенности, включая специфические инструменты, музыкальные формы и характерные элементы стиля
+    en: Each genre has its own features, including specific instruments, musical forms, and characteristic style elements
+    using:
+      concepts: |
+        instruments
+        rhythm
+        melody
+
+
+definition:
+  ru: Музыкальный жанр это категория, в которую можно отнести композиции или исполнителей на основе их общих стилевых, ритмических, характерных мелодий и звучания
+  en: A musical genre is a category to which compositions or performers can be classified based on their shared stylistic, rhythmic, distinctive melodies, and sound characteristics
+  using:
+    concepts: |
+        harmony
+        melody
+        rhythm
+        performance
+        tonality
