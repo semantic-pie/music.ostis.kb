@@ -6,7 +6,8 @@ definition:
   using:
     concepts: |
       music_notation
-      instrument
+      music_instrument
+      guitar
       sound
     nrels: |
       smooth_playing_of_sounds

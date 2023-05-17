@@ -1,7 +1,7 @@
 en: music notation
 ru: нотной грамоты
 
-parent: music_theory_sections
+parent: music_theory
 
 max: |
   music_notation
