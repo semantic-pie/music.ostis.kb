@@ -17,7 +17,8 @@ definition -> definition_of_legato (*
 
 	=> nrel_using_constants: {
 		concept_music_notation;
-		concept_instrument;
+		concept_music_instrument;
+		concept_guitar;
 		concept_sound;
 		nrel_smooth_playing_of_sounds
 	};;
@@ -26,7 +27,8 @@ definition -> definition_of_legato (*
 
 sc_node_class ->
 	concept_music_notation;
-	concept_instrument;
+	concept_music_instrument;
+	concept_guitar;
 	concept_sound;;
 
 sc_node_norole_relation ->

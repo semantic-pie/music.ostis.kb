@@ -1,0 +1,10 @@
+en: chord
+ru: трезвучие
+
+parent: harmony
+
+max: |
+  chord
+
+concepts: |
+  power_chord
