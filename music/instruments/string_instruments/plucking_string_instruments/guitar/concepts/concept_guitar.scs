@@ -5,9 +5,9 @@ concept_guitar
 
 
 => nrel_inclusion:
-concept_concept_bass_guitar;
-concept_concept_electro_guitar;
-concept_concept_classic_guitar;;
+concept_bass_guitar;
+concept_electro_guitar;
+concept_classic_guitar;;
 
 definition -> definition_of_guitar (*
 	-> rrel_key_sc_element: concept_guitar;;
