@@ -1,4 +1,4 @@
-"file://drums.jpeg"
+"file://drums.jpg"
  <- image;
  => nrel_image: concept_drums;
  => nrel_format: format_png;;
