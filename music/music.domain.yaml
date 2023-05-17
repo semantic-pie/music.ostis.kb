@@ -4,7 +4,7 @@ en: music
 max: | 
   music
 
-parent: media
+parent: art
 
 children: |
   music_genres
@@ -12,13 +12,6 @@ children: |
   music_theory
 
 concepts: |
-  melody
-  harmony
-  rhythm
-  timbre
-  tempo
-  chord
-  interval
   musical_genre
   music_instrument
   music_theory
