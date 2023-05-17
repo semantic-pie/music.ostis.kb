@@ -20,6 +20,6 @@ definition:
       fret
 
 subclass:
-  - bass_guitar
-  - electro_guitar
-  - classic_guitar
+  - concept_bass_guitar
+  - concept_electro_guitar
+  - concept_classic_guitar
