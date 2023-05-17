@@ -1,0 +1,4 @@
+"file://drums.png"
+ <- image;
+ => nrel_image: concept_drums;
+ => nrel_format: format_png;;
