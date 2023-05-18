@@ -22,3 +22,24 @@ nrel_used_musical_instruments
 => nrel_main_idtf:
 	[используемые музыкальные инструменты] (* <- lang_ru;; *);
 	[used musical instruments] (* <- lang_en;; *);;
+
+
+nrel_used_musical_instruments
+=> nrel_main_idtf:
+	[используемые музыкальные инструменты] (* <- lang_ru;; *);
+	[used musical instruments] (* <- lang_en;; *);;
+
+
+start_page
+<-sc_node_struct;
+=> nrel_main_idtf:
+	[Pied piper стартовая стрница]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Pied piper start page]
+	(* <- lang_en;; *);
+<- ui_start_sc_element;
+<= nrel_section_decomposition: {
+	section_subject_domain_of_music;
+	section_subject_domain_of_graphs
+};;
