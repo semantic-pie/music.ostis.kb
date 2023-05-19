@@ -1,0 +1,64 @@
+concept_country 
+<- sc_node_class;;
+
+
+united_states
+<- concept_country;
+=> nrel_main_idtf:
+    [cоединенные штаты америки](* <- lang_ru;; *);    
+	[United States of America](* <- lang_en;; *);;
+
+united_kingdom
+<- concept_country;
+=> nrel_main_idtf:
+    [Великобритания](* <- lang_ru;; *);    
+	[Great britain](* <- lang_en;; *);;
+
+canada
+<- concept_country;
+=> nrel_main_idtf:
+    [Канада](* <- lang_ru;; *);    
+	[Canada](* <- lang_en;; *);;
+
+australia
+<- concept_country;
+=> nrel_main_idtf:
+    [Австралия](* <- lang_ru;; *);    
+	[Australia](* <- lang_en;; *);;
+
+japan
+<- concept_country;
+=> nrel_main_idtf:
+    [Япония](* <- lang_ru;; *);    
+	[Japan](* <- lang_en;; *);;
+
+germany
+<- concept_country;
+=> nrel_main_idtf:
+    [Германия](* <- lang_ru;; *);    
+	[Germany](* <- lang_en;; *);;
+
+norway
+<- concept_country;
+=> nrel_main_idtf:
+    [Норвегия](* <- lang_ru;; *);    
+	[Norway](* <- lang_en;; *);;
+
+sweden
+<- concept_country;
+=> nrel_main_idtf:
+    [Швеция](* <- lang_ru;; *);    
+	[Sweden](* <- lang_en;; *);;
+
+europe
+<- concept_continent;
+=> nrel_main_idtf:
+    [Европа](* <- lang_ru;; *);    
+	[Europe](* <- lang_en;; *);;
+
+1950 <- year;;
+1960 <- year;;
+1970 <- year;;
+1980 <- year;;
+1990 <- year;;
+2000 <- year;;
