@@ -295,4 +295,4 @@ graph LR;
 
    
 ```
-We're good!
+We're cool!
