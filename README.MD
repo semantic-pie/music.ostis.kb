@@ -295,4 +295,4 @@ graph LR;
 
    
 ```
-Everything is amazing!
+Everything is super cool!
