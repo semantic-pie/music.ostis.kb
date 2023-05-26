@@ -1,11 +1,16 @@
 concept_country 
 <- sc_node_class;;
 
+concept_continent
+<- sc_node_class;;
+
+concept_region
+<- sc_node_class;;
 
 united_states
 <- concept_country;
 => nrel_main_idtf:
-    [cоединенные штаты америки](* <- lang_ru;; *);    
+    [Соединенные Штаты Америки](* <- lang_ru;; *);    
 	[United States of America](* <- lang_en;; *);;
 
 united_kingdom
@@ -56,9 +61,44 @@ europe
     [Европа](* <- lang_ru;; *);    
 	[Europe](* <- lang_en;; *);;
 
-1950 <- year;;
-1960 <- year;;
-1970 <- year;;
-1980 <- year;;
-1990 <- year;;
-2000 <- year;;
+south_korea
+<- concept_country;
+=> nrel_main_idtf:
+[Южная Корея](* <- lang_ru;; *);
+[South Korea](* <- lang_en;; *);;
+
+china
+<- concept_country;
+=> nrel_main_idtf:
+[Китай](* <- lang_ru;; *);
+[China](* <- lang_en;; *);;
+
+taiwan
+<- concept_country;
+=> nrel_main_idtf:
+[Тайвань](* <- lang_ru;; *);
+[Taiwan](* <- lang_en;; *);;
+
+latin_america
+<- concept_region;
+=> nrel_main_idtf:
+[Латинская Америка](* <- lang_ru;; *);
+[Latin America](* <- lang_en;; *);;
+
+spain
+<- concept_country;
+=> nrel_main_idtf:
+[Испания](* <- lang_ru;; *);
+[Spain](* <- lang_en;; *);;
+
+puerto_rico
+<- concept_country;
+=> nrel_main_idtf:
+[Пуэрто-Рико](* <- lang_ru;; *);
+[Puerto Rico](* <- lang_en;; *);;
+
+africa
+<- concept_continent;
+=> nrel_main_idtf:
+[Африка](* <- lang_ru;; *);
+[Africa](* <- lang_en;; *);;
