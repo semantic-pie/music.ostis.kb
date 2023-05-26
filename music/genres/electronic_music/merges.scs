@@ -42,7 +42,7 @@ concept_electro;
 concept_detroit_techno;
 concept_german_techno;
 concept_chicago_house;
-concept_synthpop;
+concept_electronic_synthpop;
 => nrel_place_of_origin:
 united_states;
 germany;
@@ -291,7 +291,7 @@ concept_ebm
 => nrel_stylistic_origin:
 concept_industrial;
 concept_electronic_music;
-concept_synthpop;
+concept_electronic_synthpop;
 => nrel_place_of_origin:
 belgium;
 germany;
@@ -305,7 +305,7 @@ concept_agrotech;
 [эбм](* <- lang_ru;; *);
 [ebm](* <- lang_en;; *);;
 
-concept_synthpop
+concept_electronic_synthpop
 <- concept_electronic_music;
 <- concept_music_genre;
 => nrel_stylistic_origin:
@@ -409,7 +409,7 @@ concept_vaporwave
 => nrel_stylistic_origin:
 concept_electronic_music;
 concept_chillwave;
-concept_synthpop;
+concept_electronic_synthpop;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
