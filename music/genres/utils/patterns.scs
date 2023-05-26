@@ -1,0 +1,35 @@
+
+
+pattern_place_of_origin
+=>nrel_main_idtf:
+		[место возникновения рока] (* <- lang_ru;; *);
+		[place of origin of rock] (* <- lang_en;; *);;
+pattern_place_of_origin = [*
+    concept_rock _<- concept_music_genre;
+    _=> nrel_place_of_origin: _x;;
+*];;
+
+pattern_place_of_origin_is_usa
+=> nrel_main_idtf:
+		[жанры место возникновения которых - США] (* <- lang_ru;; *);
+		[gпenres whose place of origin is the USA] (* <- lang_en;; *);;
+
+pattern_place_of_origin_is_usa = [*
+    _x _<- concept_music_genre;
+    _=> nrel_place_of_origin: united_states;;
+    
+*];;
+
+pattern_year_of_origin_in_1960
+=> nrel_main_idtf:
+		[жанры зародившиеся в 60-x] (* <- lang_ru;; *);
+		[genres originated in the 60s] (* <- lang_en;; *);;
+pattern_year_of_origin_in_1960 = [*
+    _x _<- concept_music_genre;
+    _=> nrel_used_musical_instruments: concept_electro_guitar;;
+*];;
+
+search_pattern
+-> pattern_place_of_origin;
+-> pattern_place_of_origin_is_usa;
+-> pattern_year_of_origin_in_1960;;
