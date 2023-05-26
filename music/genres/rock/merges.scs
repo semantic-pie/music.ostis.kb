@@ -14,7 +14,7 @@ concept_rock
 
 
 
-concept_concept_garage_rock
+concept_garage_rock
 <- concept_rock;
 => nrel_stylistic_origin:
     concept_rock_n_roll;
