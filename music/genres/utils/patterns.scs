@@ -6,17 +6,17 @@ pattern_place_of_origin
 		[place of origin of rock] (* <- lang_en;; *);;
 pattern_place_of_origin = [*
     concept_rock _<- concept_music_genre;
-    _=> nrel_place_of_origin: _x;;
+    _=> nrel_place_of_origin:: _x;;
 *];;
 
 pattern_place_of_origin_is_usa
 => nrel_main_idtf:
 		[жанры место возникновения которых - США] (* <- lang_ru;; *);
-		[gпenres whose place of origin is the USA] (* <- lang_en;; *);;
+		[genres whose place of origin is the USA] (* <- lang_en;; *);;
 
 pattern_place_of_origin_is_usa = [*
     _x _<- concept_music_genre;
-    _=> nrel_place_of_origin: united_states;;
+    _=> nrel_place_of_origin:: united_states;;
     
 *];;
 
@@ -26,7 +26,7 @@ pattern_year_of_origin_in_1960
 		[genres originated in the 60s] (* <- lang_en;; *);;
 pattern_year_of_origin_in_1960 = [*
     _x _<- concept_music_genre;
-    _=> nrel_used_musical_instruments: concept_electro_guitar;;
+    _=> nrel_year_of_origin:: 1960s;;
 *];;
 
 search_pattern
