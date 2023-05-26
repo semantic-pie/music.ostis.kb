@@ -1,477 +1,383 @@
 concept_rock 
 <- concept_music_genre;
 => nrel_stylistic_origin: 
-    concept_jazz;
-    concept_rock_n_roll;
+concept_jazz;
+concept_rock_n_roll;
 => nrel_place_of_origin:
-    united_kingdom;
-    united_states;
+united_kingdom;
+united_states;
 => nrel_year_of_origin;
-    1950s;
-=> nrel_main_idtf:
-    [рок](* <- lang_ru;; *);
-    [rock](* <- lang_en;; *);;
-
-
+1950s;;
 
 concept_garage_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_rock_n_roll;
-    concept_concept_blues;
-    concept_concept_surf;
+concept_rock_n_roll;
+concept_concept_blues;
+concept_concept_surf;
 => nrel_place_of_origin:
-    united_states;
-    canada;
+united_states;
+canada;
 => nrel_year_of_origin:
-    1950s;
+1950s;
 => nrel_derivative_form:
-    concept_punk_rock;
-    concept_hard_rock;
-    concept_grunge;
-=> nrel_main_idtf:
-    [гаражный рок](* <- lang_ru;; *);
-    [garage rock](* <- lang_en;; *);;
-
-
+concept_punk_rock;
+concept_hard_rock;
+concept_grunge;;
 
 concept_hard_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_blues_rock;
-    concept_psychedelic_rock;
-    concept_garage_rock;
-    concept_rock_n_roll;
+concept_blues_rock;
+concept_psychedelic_rock;
+concept_garage_rock;
+concept_rock_n_roll;
 => nrel_place_of_origin:
-    united_kingdom;
-    united_states;
+united_kingdom;
+united_states;
 => nrel_year_of_origin:
-    1960s;
+1960s;
 => nrel_derivative_form:
-    concept_grunge;
-    concept_punk_rock;
-=> nrel_main_idtf:
-    [тяжёлый рок](* <- lang_ru;; *);    
-	[hard rock](* <- lang_en;; *);;
-
-
+concept_grunge;
+concept_punk_rock;;
 
 concept_punk_rock 
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_garage_rock;
-    concept_rock_n_roll;
+concept_garage_rock;
+concept_rock_n_roll;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
-    australia;
+united_states;
+united_kingdom;
+australia;
 => nrel_year_of_origin:
-    1970s;
+1970s;
 => nrel_derivative_form:
-    concept_alternative_rock;
-    concept_indie_rock;
-    thrash_metal;
-    speed_metal;
-=> nrel_main_idtf:
-    [панк рок](* <- lang_ru;; *);
-    [punk rock](* <- lang_en;; *);;
-
-
+concept_alternative_rock;
+concept_indie_rock;
+thrash_metal;
+speed_metal;;
 
 concept_grunge 
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_alternative_rock;
-    concept_punk_rock;
-    heavy_metal;
-    concept_hard_rock;
+concept_alternative_rock;
+concept_punk_rock;
+heavy_metal;
+concept_hard_rock;
 => nrel_place_of_origin:
-    united_states;
+united_states;
 => nrel_year_of_origin:
-    1980s;
-=> nrel_main_idtf:
-    [гранж](* <- lang_ru;; *);
-    [concept_grunge ](* <- lang_en;; *);;
-
-
-
+1980s;;
 
 concept_math_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    progressive_metal;
-    concept_indie_rock;
+progressive_metal;
+concept_indie_rock;
 => nrel_place_of_origin:
-    united_states;
-    japan;
+united_states;
+japan;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    post_rock;
-=> nrel_main_idtf:
-    [математический рок](* <- lang_ru;; *);
-    [math rock](* <- lang_en;; *);;
-
-
+post_rock;;
 
 concept_psychedelic_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_jazz;
-    concept_blues;
-    concept_surf;
+concept_jazz;
+concept_blues;
+concept_surf;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
+united_states;
+united_kingdom;
 => nrel_year_of_origin:
-    1960s;
+1960s;
 => nrel_derivative_form:
-    concept_hard_rock;
-    heavy_metal;
-    industrial_music;
-    progressive_rock;
-=> nrel_main_idtf:
-    [психоделический рок](* <- lang_ru;; *);
-    [psychedelic rock](* <- lang_en;; *);;
-
-
-
+concept_hard_rock;
+heavy_metal;
+industrial_music;
+progressive_rock;;
 
 progressive_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_psychedelic_rock;
-    concept_jazz;
-    concept_classic_music;
+concept_psychedelic_rock;
+concept_jazz;
+concept_classic_music;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
+united_states;
+united_kingdom;
 => nrel_year_of_origin:
-    1960s;
+1960s;
 => nrel_derivative_form:
-    post_rock;
-=> nrel_main_idtf:
-    [прогрессивный рок](* <- lang_ru;; *);
-    [progressive rock](* <- lang_en;; *);;
-
+post_rock;;
 
 concept_alternative_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_punk_rock;
+concept_punk_rock;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
+united_states;
+united_kingdom;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    concept_grunge;
-    concept_indie_rock;
-    concept_post_grunge;
-    concept_britpop;
-    concept_shoegaze;
-=> nrel_main_idtf:
-    [альтернативный рок](* <- lang_ru;; *);
-    [alternative rock](* <- lang_en;; *);;
-
+concept_grunge;
+concept_indie_rock;
+concept_post_grunge;
+concept_britpop;
+concept_shoegaze;;
 
 post_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_indie_rock;
-    progressive_rock;
-    concept_math_rock;
-    concept_jazz;
+concept_indie_rock;
+progressive_rock;
+concept_math_rock;
+concept_jazz;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
-    canada;
+united_states;
+united_kingdom;
+canada;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    post_metal;
-=> nrel_main_idtf:
-    [пост-рок](* <- lang_ru;; *);
-    [post-rock](* <- lang_en;; *);;
-
+post_metal;;
 
 concept_thrash_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_speed_metal;
-    concept_hardcore_punk;
-    concept_heavy_metal;
+concept_speed_metal;
+concept_hardcore_punk;
+concept_heavy_metal;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
-    germany;
+united_states;
+united_kingdom;
+germany;
 => nrel_year_of_origin:
 1980s;
 => nrel_derivative_form:
-    concept_death_metal;
-    concept_groove_metal;
-    concept_black_metal;
-    concept_power_metal;
-=> nrel_main_idtf:
-[трэш-метал](* <- lang_ru;; *);
-[thrash metal](* <- lang_en;; *);;
-
+concept_death_metal;
+concept_groove_metal;
+concept_black_metal;
+concept_power_metal;;
 
 concept_death_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_thrash_metal;
-    concept_black_metal;
-    concept_doom_metal;
-    concept_progressive_metal;
+concept_thrash_metal;
+concept_black_metal;
+concept_doom_metal;
+concept_progressive_metal;
 => nrel_place_of_origin:
-    united_states;
+united_states;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    concept_melodic_death_metal;
-    concept_technical_death_metal;
-    concept_brutal_death_metal;
-=> nrel_main_idtf:
-    [дэт-метал](* <- lang_ru;; *);
-    [death metal](* <- lang_en;; *);;
-
+concept_melodic_death_metal;
+concept_technical_death_metal;
+concept_brutal_death_metal;;
 
 concept_black_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_thrash_metal;
-    concept_death_metal;
-    concept_punk_rock;
-    concept_hardcore_punk;
-    concept_industrial_music;
-    concept_progressive_metal;
+concept_thrash_metal;
+concept_death_metal;
+concept_punk_rock;
+concept_hardcore_punk;
+concept_industrial_music;
+concept_progressive_metal;
 => nrel_place_of_origin:
-    norway;
-    sweden;
+norway;
+sweden;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    concept_symphonic_black_metal;
-    concept_viking_metal;
-    concept_atmospheric_black_metal;
-=> nrel_main_idtf:
-    [блэк-метал](* <- lang_ru;; *);
-    [black metal](* <- lang_en;; *);;
+concept_symphonic_black_metal;
+concept_viking_metal;
+concept_atmospheric_black_metal;;
 
 concept_progressive_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_progressive_rock;
-    concept_thrash_metal;
-    concept_power_metal;
-    concept_classic_music;
+concept_progressive_rock;
+concept_thrash_metal;
+concept_power_metal;
+concept_classic_music;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
+united_states;
+united_kingdom;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    concept_symphonic_metal;
-    concept_technical_metal;
-    concept_djent;
-=> nrel_main_idtf:
-    [прогрессивный метал](* <- lang_ru;; *);
-    [progressive metal](* <- lang_en;; *);;
-
+concept_symphonic_metal;
+concept_technical_metal;
+concept_djent;;
 
 concept_doom_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_heavy_metal;
-    concept_psychedelic_rock;
-    concept_progressive_rock;
-    concept_death_metal;
+concept_heavy_metal;
+concept_psychedelic_rock;
+concept_progressive_rock;
+concept_death_metal;
 => nrel_place_of_origin:
-    united_kingdom;
-    united_states;
+united_kingdom;
+united_states;
 => nrel_year_of_origin:
-    1970s;
+1970s;
 => nrel_derivative_form:
-    concept_funeral_doom_metal;
-    concept_gothic_metal;
-    concept_stoner_metal;
-=> nrel_main_idtf:
-    [дум-метал](* <- lang_ru;; *);
-    [doom metal](* <- lang_en;; *);;
+concept_funeral_doom_metal;
+concept_gothic_metal;
+concept_stoner_metal;;
 
 concept_power_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_speed_metal;
-    concept_progressive_metal;
-    concept_symphonic_metal;
-    concept_classic_music;
+concept_speed_metal;
+concept_progressive_metal;
+concept_symphonic_metal;
+concept_classic_music;
 => nrel_place_of_origin:
-    united_kingdom;
-    germany;
-    united_states;
+united_kingdom;
+germany;
+united_states;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    concept_epic_metal;
-    concept_symphonic_power_metal;
-=> nrel_main_idtf:
-    [пауэр-метал](* <- lang_ru;; *);
-    [power metal](* <- lang_en;; *);;
+concept_epic_metal;
+concept_symphonic_power_metal;;
 
 concept_folk_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_heavy_metal;
-    concept_folk_music;
+concept_heavy_metal;
+concept_folk_music;
 => nrel_place_of_origin:
-    europe;
+europe;
 => nrel_year_of_origin:
-    1990s;
+1990s;
 => nrel_derivative_form:
-    concept_viking_metal;
-    concept_pagan_metal;
-    concept_celtic_metal;
-=> nrel_main_idtf:
-    [фолк-метал](* <- lang_ru;; *);
-    [folk metal](* <- lang_en;; *);;
-
+concept_viking_metal;
+concept_pagan_metal;
+concept_celtic_metal;;
 
 concept_metalcore
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_hardcore_punk;
-    concept_thrash_metal;
-    concept_melodic_death_metal;
+concept_hardcore_punk;
+concept_thrash_metal;
+concept_melodic_death_metal;
 => nrel_place_of_origin:
-    united_states;
+united_states;
 => nrel_year_of_origin:
-    1990s;
+1990s;
 => nrel_derivative_form:
-    concept_deathcore;
-    concept_melodic_metalcore;
-    concept_mathcore;
-=> nrel_main_idtf:
-    [металкор](* <- lang_ru;; *);
-    [metalcore](* <- lang_en;; *);;
-
+concept_deathcore;
+concept_melodic_metalcore;
+concept_mathcore;;
 
 concept_nu_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_alternative_metal;
-    concept_rap_metal;
-    concept_grunge;
-    concept_industrial_rock;
+concept_alternative_metal;
+concept_rap_metal;
+concept_grunge;
+concept_industrial_rock;
 => nrel_place_of_origin:
-    united_states;
-    australia;
-    canada;
+united_states;
+australia;
+canada;
 => nrel_year_of_origin:
-    1990s;
+1990s;
 => nrel_derivative_form:
-    concept_rapcore;
-    concept_alternative_rock;
-    concept_industrial_metal;
-=> nrel_main_idtf:
-    [ню-метал](* <- lang_ru;; *);
-    [nu metal](* <- lang_en;; *);;
-
+concept_rapcore;
+concept_alternative_rock;
+concept_industrial_metal;;
 
 concept_post_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_post_rock;
-    concept_progressive_metal;
-    concept_sludge_metal;
-    concept_shoegaze;
+concept_post_rock;
+concept_progressive_metal;
+concept_sludge_metal;
+concept_shoegaze;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
-    canada;
+united_states;
+united_kingdom;
+canada;
 => nrel_year_of_origin:
-    1990s;
-=> nrel_main_idtf:
-    [пост-метал](* <- lang_ru;; *);
-    [post-metal](* <- lang_en;; *);;
+1990s;;
 
 concept_speed_metal
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_thrash_metal;
-    concept_new_wave_of_british_heavy_metal;
-    concept_power_metal;
-    concept_punk_rock;
+concept_thrash_metal;
+concept_new_wave_of_british_heavy_metal;
+concept_power_metal;
+concept_punk_rock;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
+united_states;
+united_kingdom;
 => nrel_year_of_origin:
-    1980s;
-=> nrel_main_idtf:
-    [спид-метал](* <- lang_ru;; *);
-    [speed metal](* <- lang_en;; *);;
+1980s;;
 
 concept_indie_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_alternative_rock;
-    concept_post_punk;
-    concept_jangle_pop;
-    concept_lo_fi;
+concept_alternative_rock;
+concept_post_punk;
+concept_jangle_pop;
+concept_lo_fi;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
+united_states;
+united_kingdom;
 => nrel_year_of_origin:
-    1980s;
+1980s;
 => nrel_derivative_form:
-    concept_indie_pop;
-    concept_indie_folk;
-    concept_indie_electronic;
-    concept_dream_pop;
-    concept_shoegaze;
-=> nrel_main_idtf:
-    [инди-рок](* <- lang_ru;; *);
-    [indie rock](* <- lang_en;; *);;
+concept_indie_pop;
+concept_indie_folk;
+concept_indie_electronic;
+concept_dream_pop;
+concept_shoegaze;;
 
 concept_blues_rock
 <- concept_rock;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-    concept_blues;
-    concept_rock_n_roll;
-    concept_rhythm_and_blues;
+concept_blues;
+concept_rock_n_roll;
+concept_rhythm_and_blues;
 => nrel_place_of_origin:
-    united_states;
-    united_kingdom;
+united_states;
+united_kingdom;
 => nrel_year_of_origin:
-    1960s;
+1960s;
 => nrel_derivative_form:
-    concept_southern_rock;
-    concept_garage_rock;
-    concept_hard_rock;
-    concept_boogie_rock;
-=> nrel_main_idtf:
-    [блюз-рок](* <- lang_ru;; *);
-    [blues rock](* <- lang_en;; *);;
+concept_southern_rock;
+concept_garage_rock;
+concept_hard_rock;
+concept_boogie_rock;;

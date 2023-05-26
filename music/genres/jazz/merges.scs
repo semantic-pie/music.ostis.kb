@@ -11,10 +11,7 @@ united_states;
 => nrel_year_of_origin:
 1930s;
 => nrel_derivative_form:
-concept_swing_revival;
-=> nrel_main_idtf:
-[swing](* <- lang_en;; *);
-[свинг](* <- lang_ru;; *);;
+concept_swing_revival;;
 
 concept_bebop
 <- concept_jazz;
@@ -28,10 +25,7 @@ united_states;
 => nrel_year_of_origin:
 1940s;
 => nrel_derivative_form:
-concept_hard_bop;
-=> nrel_main_idtf:
-[bebop](* <- lang_en;; *);
-[бибоп](* <- lang_ru;; *);;
+concept_hard_bop;;
 
 concept_cool_jazz
 <- concept_jazz;
@@ -43,10 +37,7 @@ concept_classical_music;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1940s;
-=> nrel_main_idtf:
-[cool jazz](* <- lang_en;; *);
-[классический джаз](* <- lang_ru;; *);;
+1940s;;
 
 concept_hard_bop
 <- concept_jazz;
@@ -58,10 +49,7 @@ concept_rhythm_and_blues;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1950s;
-=> nrel_main_idtf:
-[hard bop](* <- lang_en;; *);
-[хард боп](* <- lang_ru;; *);;
+1950s;;
 
 concept_free_jazz
 <- concept_jazz;
@@ -73,10 +61,7 @@ concept_free_improvisation;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1950s;
-=> nrel_main_idtf:
-[free jazz](* <- lang_en;; *);
-[фри-джаз](* <- lang_ru;; *);;
+1950s;;
 
 concept_modal_jazz
 <- concept_jazz;
@@ -88,10 +73,7 @@ concept_classical_music;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1950s;
-=> nrel_main_idtf:
-[modal jazz](* <- lang_en;; *);
-[модальный джаз](* <- lang_ru;; *);;
+1950s;;
 
 concept_jazz_fusion
 <- concept_jazz;
@@ -103,10 +85,7 @@ concept_rock_music;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1960s;
-=> nrel_main_idtf:
-[jazz fusion](* <- lang_en;; *);
-[джаз-фьюжн](* <- lang_ru;; *);;
+1960s;;
 
 concept_latin_jazz
 <- concept_jazz;
@@ -120,10 +99,7 @@ concept_salsa_music;
 united_states;
 cuba;
 => nrel_year_of_origin:
-1940s;
-=> nrel_main_idtf:
-[latin jazz](* <- lang_en;; *);
-[латин-джаз](* <- lang_ru;; *);;
+1940s;;
 
 concept_afro_cuban_jazz
 <- concept_jazz;
@@ -137,10 +113,7 @@ concept_salsa_music;
 united_states;
 cuba;
 => nrel_year_of_origin:
-1940s;
-=> nrel_main_idtf:
-[afro-cuban jazz](* <- lang_en;; *);
-[афро-кубинский джаз](* <- lang_ru;; *);;
+1940s;;
 
 concept_bossa_nova
 <- concept_jazz;
@@ -151,10 +124,7 @@ concept_samba;
 => nrel_place_of_origin:
 brazil;
 => nrel_year_of_origin:
-1950s;
-=> nrel_main_idtf:
-[bossa nova](* <- lang_en;; *);
-[босса-нова](* <- lang_ru;; *);;
+1950s;;
 
 concept_acid_jazz
 <- concept_jazz;
@@ -167,10 +137,7 @@ concept_electronic_music;
 => nrel_place_of_origin:
 united_kingdom;
 => nrel_year_of_origin:
-1980s;
-=> nrel_main_idtf:
-[acid jazz](* <- lang_en;; *);
-[эсид-джаз](* <- lang_ru;; *);;
+1980s;;
 
 concept_smooth_jazz
 <- concept_jazz;
@@ -183,10 +150,7 @@ concept_fusion;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1970s;
-=> nrel_main_idtf:
-[smooth jazz](* <- lang_en;; *);
-[смуз-джаз](* <- lang_ru;; *);;
+1970s;;
 
 concept_jazz_funk
 <- concept_jazz;
@@ -197,10 +161,7 @@ concept_funk;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1960s;
-=> nrel_main_idtf:
-[jazz funk](* <- lang_en;; *);
-[джаз-фанк](* <- lang_ru;; *);;
+1960s;;
 
 concept_soul_jazz
 <- concept_jazz;
@@ -211,10 +172,7 @@ concept_soul_music;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1960s;
-=> nrel_main_idtf:
-[soul jazz](* <- lang_en;; *);
-[соул-джаз](* <- lang_ru;; *);;
+1960s;;
 
 concept_dixieland
 <- concept_jazz;
@@ -227,10 +185,7 @@ concept_blues;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1910s;
-=> nrel_main_idtf:
-[dixieland](* <- lang_en;; *);
-[диксиленд](* <- lang_ru;; *);;
+1910s;;
 
 concept_gypsy_jazz
 <- concept_jazz;
@@ -242,10 +197,7 @@ concept_swing;
 => nrel_place_of_origin:
 france;
 => nrel_year_of_origin:
-1930s;
-=> nrel_main_idtf:
-[gypsy jazz](* <- lang_en;; *);
-[джаз мануш](* <- lang_ru;; *);;
+1930s;;
 
 concept_ethno_jazz
 <- concept_jazz;
@@ -257,10 +209,7 @@ concept_world_music;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1960s;
-=> nrel_main_idtf:
-[ethno jazz](* <- lang_en;; *);
-[этно-джаз](* <- lang_ru;; *);;
+1960s;;
 
 concept_chamber_jazz
 <- concept_jazz;
@@ -271,10 +220,7 @@ concept_chamber_music;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1970s;
-=> nrel_main_idtf:
-[chamber jazz](* <- lang_en;; *);
-[камерный джаз](* <- lang_ru;; *);;
+1970s;;
 
 concept_avantgarde_jazz
 <- concept_jazz;
@@ -286,10 +232,7 @@ concept_free_jazz;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1950s;
-=> nrel_main_idtf:
-[avant-garde jazz](* <- lang_en;; *);
-[авангардный джаз](* <- lang_ru;; *);;
+1950s;;
 
 concept_jazz_rap
 <- concept_jazz;
@@ -300,10 +243,7 @@ concept_hip_hop_music;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
-1980s;
-=> nrel_main_idtf:
-[jazz rap](* <- lang_en;; *);
-[джаз-рэп](* <- lang_ru;; *);;
+1980s;;
 
 concept_nu_jazz
 <- concept_jazz;
@@ -315,7 +255,4 @@ concept_fusion;
 => nrel_place_of_origin:
 united_kingdom;
 => nrel_year_of_origin:
-1990s;
-=> nrel_main_idtf:
-[nu jazz](* <- lang_en;; *);
-[ню-джаз](* <- lang_ru;; *);;
+1990s;;

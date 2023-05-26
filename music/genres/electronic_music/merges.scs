@@ -6,10 +6,7 @@ concept_avant_garde;
 concept_synthesizer;
 concept_dance_music;
 concept_electronic_instrument;
-concept_sampling;
-=> nrel_main_idtf:
-[электронная музыка](* <- lang_ru;; *);
-[electronic music](* <- lang_en;; *);;
+concept_sampling;;
 
 concept_house
 <- concept_electronic_music;
@@ -29,10 +26,7 @@ concept_deep_house;
 concept_tech_house;
 concept_electro_house;
 concept_progressive_house;
-concept_tribal_house;
-=> nrel_main_idtf:
-[хаус](* <- lang_ru;; *);
-[house](* <- lang_en;; *);;
+concept_tribal_house;;
 
 concept_techno
 <- concept_electronic_music;
@@ -53,10 +47,7 @@ concept_minimal_techno;
 concept_industrial_techno;
 concept_acid_techno;
 concept_tech_house;
-concept_dub_techno;
-=> nrel_main_idtf:
-[техно](* <- lang_ru;; *);
-[techno](* <- lang_en;; *);;
+concept_dub_techno;;
 
 concept_trance
 <- concept_electronic_music;
@@ -76,10 +67,7 @@ concept_progressive_trance;
 concept_uplifting_trance;
 concept_psytrance;
 concept_hard_trance;
-concept_goa_trance;
-=> nrel_main_idtf:
-[транс](* <- lang_ru;; *);
-[trance](* <- lang_en;; *);;
+concept_goa_trance;;
 
 concept_breakbeat
 <- concept_electronic_music;
@@ -100,11 +88,7 @@ concept_big_beat;
 concept_nu_skool_breaks;
 concept_dubstep;
 concept_breakcore;
-concept_jungle;
-=> nrel_main_idtf:
-[брейкбит](* <- lang_ru;; *);
-[breakbeat](* <- lang_en;; *);;
-
+concept_jungle;;
 
 concept_jungle
 <- concept_electronic_music;
@@ -117,10 +101,7 @@ concept_hip_hop;
 => nrel_place_of_origin:
 united_kingdom;
 => nrel_year_of_origin:
-1990s;
-=> nrel_main_idtf:
-[джангл](* <- lang_ru;; *);
-[jungle](* <- lang_en;; *);;
+1990s;;
 
 concept_drum_and_bass
 <- concept_electronic_music;
@@ -134,10 +115,7 @@ concept_hip_hop;
 => nrel_place_of_origin:
 united_kingdom;
 => nrel_year_of_origin:
-1990s;
-=> nrel_main_idtf:
-[драм-н-бэйс](* <- lang_ru;; *);
-[drum and bass](* <- lang_en;; *);;
+1990s;;
 
 concept_dubstep
 <- concept_electronic_music;
@@ -151,10 +129,7 @@ concept_uk_garage;
 => nrel_place_of_origin:
 united_kingdom;
 => nrel_year_of_origin:
-1990s;
-=> nrel_main_idtf:
-[дабстеп](* <- lang_ru;; *);
-[dubstep](* <- lang_en;; *);;
+1990s;;
 
 concept_garage
 <- concept_electronic_music;
@@ -168,10 +143,7 @@ concept_house;
 united_states;
 united_kingdom;
 => nrel_year_of_origin:
-1980s;
-=> nrel_main_idtf:
-[гэридж](* <- lang_ru;; *);
-[garage](* <- lang_en;; *);;
+1980s;;
 
 concept_grime
 <- concept_electronic_music;
@@ -184,10 +156,7 @@ concept_hip_hop;
 => nrel_place_of_origin:
 united_kingdom;
 => nrel_year_of_origin:
-2000s;
-=> nrel_main_idtf:
-[грайм](* <- lang_ru;; *);
-[grime](* <- lang_en;; *);;
+2000s;;
 
 concept_ambient
 <- concept_electronic_music;
@@ -202,10 +171,7 @@ concept_downtempo;
 united_kingdom;
 united_states;
 => nrel_year_of_origin:
-1970s;
-=> nrel_main_idtf:
-[эмбиент](* <- lang_ru;; *);
-[ambient](* <- lang_en;; *);;
+1970s;;
 
 concept_downtempo
 <- concept_electronic_music;
@@ -220,10 +186,7 @@ concept_lounge;
 united_kingdom;
 united_states;
 => nrel_year_of_origin:
-1990s;
-=> nrel_main_idtf:
-[даунтемпо](* <- lang_ru;; *);
-[downtempo](* <- lang_en;; *);;
+1990s;;
 
 
 concept_trip_hop
@@ -240,10 +203,7 @@ united_kingdom;
 => nrel_derivative_form:
 concept_trip_rock;
 concept_chillout;
-concept_triphop_ambient;
-=> nrel_main_idtf:
-[трип-хоп](* <- lang_ru;; *);
-[trip hop](* <- lang_en;; *);;
+concept_triphop_ambient;;
 
 concept_synthwave
 <- concept_electronic_music;
@@ -261,10 +221,7 @@ france;
 => nrel_derivative_form:
 concept_dark_synth;
 concept_retrowave;
-concept_outrun;
-=> nrel_main_idtf:
-[синтвейв](* <- lang_ru;; *);
-[synthwave](* <- lang_en;; *);;
+concept_outrun;;
 
 concept_industrial
 <- concept_electronic_music;
@@ -280,10 +237,7 @@ united_kingdom;
 => nrel_derivative_form:
 concept_industrial_rock;
 concept_industrial_metal;
-concept_ebm;
-=> nrel_main_idtf:
-[индастриал](* <- lang_ru;; *);
-[industrial](* <- lang_en;; *);;
+concept_ebm;;
 
 concept_ebm
 <- concept_electronic_music;
@@ -300,10 +254,7 @@ germany;
 => nrel_derivative_form:
 concept_dark_electro;
 concept_futurepop;
-concept_agrotech;
-=> nrel_main_idtf:
-[эбм](* <- lang_ru;; *);
-[ebm](* <- lang_en;; *);;
+concept_agrotech;;
 
 concept_electronic_synthpop
 <- concept_electronic_music;
@@ -320,10 +271,7 @@ united_states;
 => nrel_derivative_form:
 concept_electropop;
 concept_futurepop;
-concept_darkwave;
-=> nrel_main_idtf:
-[синтпоп](* <- lang_ru;; *);
-[synthpop](* <- lang_en;; *);;
+concept_darkwave;;
 
 concept_electro
 <- concept_electronic_music;
@@ -339,11 +287,7 @@ united_states;
 => nrel_derivative_form:
 concept_electroclash;
 concept_ghetto_electro;
-concept_techno_bass;
-=> nrel_main_idtf:
-[электро](* <- lang_ru;; *);
-[electro](* <- lang_en;; *);;
-
+concept_techno_bass;;
 
 concept_nu_disco
 <- concept_electronic_music;
@@ -359,10 +303,7 @@ france;
 => nrel_derivative_form:
 concept_french_house;
 concept_indie_dance;
-concept_nudisco_italo;
-=> nrel_main_idtf:
-[ню-диско](* <- lang_ru;; *);
-[nu disco](* <- lang_en;; *);;
+concept_nudisco_italo;;
 
 concept_idm
 <- concept_electronic_music;
@@ -378,10 +319,7 @@ united_kingdom;
 => nrel_derivative_form:
 concept_glitch;
 concept_ambient_techno;
-concept_drill_and_bass;
-=> nrel_main_idtf:
-[айдиэм](* <- lang_ru;; *);
-[IDM](* <- lang_en;; *);;
+concept_drill_and_bass;;
 
 concept_glitch
 <- concept_electronic_music;
@@ -398,10 +336,7 @@ germany;
 => nrel_derivative_form:
 concept_glitch_hop;
 concept_wonky;
-concept_breakcore;
-=> nrel_main_idtf:
-[глич](* <- lang_ru;; *);
-[glitch](* <- lang_en;; *);;
+concept_breakcore;;
 
 concept_vaporwave
 <- concept_electronic_music;
@@ -417,10 +352,7 @@ united_states;
 => nrel_derivative_form:
 concept_future_funk;
 concept_seapunk;
-concept_vaportrap;
-=> nrel_main_idtf:
-[вейпорвэйв](* <- lang_ru;; *);
-[vaporwave](* <- lang_en;; *);;
+concept_vaportrap;;
 
 concept_hardstyle
 <- concept_electronic_music;
@@ -436,7 +368,4 @@ netherlands;
 => nrel_derivative_form:
 concept_rawstyle;
 concept_jumstyle;
-concept_hard_dance;
-=> nrel_main_idtf:
-[хардстайл](* <- lang_ru;; *);
-[hardstyle](* <- lang_en;; *);;
+concept_hard_dance;;
