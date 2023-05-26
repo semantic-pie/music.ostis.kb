@@ -29,7 +29,71 @@ pattern_year_of_origin_in_1960 = [*
     _=> nrel_year_of_origin:: 1960s;;
 *];;
 
+pattern_strange_ganre
+=> nrel_main_idtf:
+		[жанры стилистически основанные на блюзе, в которых используются саксофоны, зародившееся на Кубе в 40-x] (* <- lang_ru;; *);
+		[genres stylistically based on blues, in which saxophones are used, originated in Cuba in the 40s] (* <- lang_en;; *);;
+pattern_strange_ganre = [*
+    _x _<- concept_music_genre;
+    _=> nrel_stylistic_origin:: concept_blues;
+    _=> nrel_used_musical_instruments:: concept_saxophone;;
+    _y _<- _x;
+    _=> nrel_year_of_origin:: 1940s;
+    _=> nrel_place_of_origin:: cuba;;
+*];;
+
 search_pattern
 -> pattern_place_of_origin;
 -> pattern_place_of_origin_is_usa;
--> pattern_year_of_origin_in_1960;;
+-> pattern_year_of_origin_in_1960;
+-> pattern_strange_ganre;
+-> pattern_stylistic_origin_of_post_metal;
+-> pattern_place_of_origin_is_usa_in_1960;
+-> pattern_derivative_forms_of_garage_rock;
+-> pattern_sweden_norway_1980;
+-> pattern_used_instruments;
+-> pattern_genre_that_use_sexophone;
+-> pattern_electrosex;
+-> pattern_genre_with_guitar_and_power_chords;;
+
+
+pattern_stylistic_origin_of_post_metal
+=> nrel_main_idtf:
+		[стилистическое происхождение пост-метала] (* <- lang_ru;; *);
+		[stylistic origin of post-metal] (* <- lang_en;; *);;
+
+pattern_place_of_origin_is_usa_in_1960
+=> nrel_main_idtf:
+		[жанры место происхождения которых - США, а год выпуска - 1960-е] (* <- lang_ru;; *);
+		[place of origin is usa and year of origin is 1960s] (* <- lang_en;; *);;
+
+pattern_derivative_forms_of_garage_rock
+=> nrel_main_idtf:
+		[производные жанры жанра гаражного рока] (* <- lang_ru;; *);
+		[derivative forms of garage rock genre] (* <- lang_en;; *);;
+
+pattern_sweden_norway_1980
+=> nrel_main_idtf:
+		[жанры рока место происхождения которых Швеция и Норвегия 80-x] (* <- lang_ru;; *);
+		[rock genres whose place of origin is Sweden and Norway] (* <- lang_en;; *);;
+
+pattern_used_instruments
+=> nrel_main_idtf:
+		[интсрументы обычно используемые в жанре рока] (* <- lang_ru;; *);
+		[instruments commonly used in the rock genre] (* <- lang_en;; *);;
+
+pattern_genre_that_use_sexophone
+=> nrel_main_idtf:
+		[жанр использующий саксофоны] (* <- lang_ru;; *);
+		[genre that use sexophones] (* <- lang_en;; *);;
+
+pattern_electrosex
+=> nrel_main_idtf:
+		[жанр использующий саксофоны, и его поджанр стилистическое происхождение которого электронная музыка] (* <- lang_ru;; *);
+		[a genre using saxophones, and its subgenre whose stylistic origin is electronic music] (* <- lang_en;; *);;
+
+pattern_genre_with_guitar_and_power_chords
+=> nrel_main_idtf:
+		[жанр характерный использованием электро гитар и квинтакордов] (* <- lang_ru;; *);
+		[a genre characterized by the use of electric guitars and quintaccords] (* <- lang_en;; *);;
+
