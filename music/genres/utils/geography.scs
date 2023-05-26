@@ -102,3 +102,15 @@ africa
 => nrel_main_idtf:
 [Африка](* <- lang_ru;; *);
 [Africa](* <- lang_en;; *);;
+
+france
+<- concept_country;
+=> nrel_main_idtf:
+    [Франция](* <- lang_ru;; *);    
+	[France](* <- lang_en;; *);;
+
+cuba
+<- concept_country;
+=> nrel_main_idtf:
+    [Куба](* <- lang_ru;; *);    
+	[Cuba](* <- lang_en;; *);;
