@@ -1,7 +1,7 @@
 concept_double_bass
 => nrel_main_idtf:
-	[виолончель] (* <- lang_ru;; *);
-	[cello] (* <- lang_en;; *);;
+	[контрабас] (* <- lang_ru;; *);
+	[double_bass] (* <- lang_en;; *);;
 
 definition -> definition_of_double_bass (*
 	-> rrel_key_sc_element: concept_double_bass;;
@@ -12,8 +12,8 @@ definition -> definition_of_double_bass (*
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (виолончель)] (* <- lang_ru;; *);
-		[Def. (cello)] (* <- lang_en;; *);;
+		[Опр. (контрабас)] (* <- lang_ru;; *);
+		[Def. (double_bass)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
 		concept_viola;
