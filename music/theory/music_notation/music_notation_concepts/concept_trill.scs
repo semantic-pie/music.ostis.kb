@@ -17,7 +17,7 @@ definition -> definition_of_trill (*
 
 	=> nrel_using_constants: {
 		concept_music_notation;
-		concept_musical_interval;
+		concept_music_interval;
 		concept_major_second;
 		concept_minor_second;
 		nrel_performance_technique
@@ -27,7 +27,7 @@ definition -> definition_of_trill (*
 
 sc_node_class ->
 	concept_music_notation;
-	concept_musical_interval;
+	concept_music_interval;
 	concept_major_second;
 	concept_minor_second;;
 

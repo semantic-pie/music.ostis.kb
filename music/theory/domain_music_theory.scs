@@ -24,7 +24,7 @@ section_subject_domain_of_music_theory
 	concept_performance;
 	concept_analysis;
 	concept_music_notation;
-	concept_musical_interval;
+	concept_music_interval;
 	concept_chord;
 	concept_musical_symbols;
 	concept_tonality;
@@ -53,7 +53,7 @@ section_subject_domain_of_music_theory=[*
 		concept_performance;
 		concept_analysis;
 		concept_music_notation;
-		concept_musical_interval;
+		concept_music_interval;
 		concept_chord;
 		concept_musical_symbols;
 		concept_tonality;
@@ -86,7 +86,7 @@ sc_node_class ->
 	concept_performance;
 	concept_analysis;
 	concept_music_notation;
-	concept_musical_interval;
+	concept_music_interval;
 	concept_chord;
 	concept_musical_symbols;
 	concept_tonality;

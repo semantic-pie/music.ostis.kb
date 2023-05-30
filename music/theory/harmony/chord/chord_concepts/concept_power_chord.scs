@@ -16,7 +16,7 @@ definition -> definition_of_power_chord (*
 		[Def. (power chord)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
-		concept_musical_interval;
+		concept_music_interval;
 		concept_guitar;
 		concept_electro_guitar;
 		nrel_used_musical_instruments;
@@ -26,7 +26,7 @@ definition -> definition_of_power_chord (*
 
 
 sc_node_class ->
-	concept_musical_interval;
+	concept_music_interval;
 	concept_guitar;
 	concept_electro_guitar;;
 
