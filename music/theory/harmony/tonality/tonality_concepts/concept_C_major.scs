@@ -1,10 +1,10 @@
-concept_C_major
+concept_c_major
 => nrel_main_idtf:
 	[До мажор] (* <- lang_ru;; *);
 	[D minor] (* <- lang_en;; *);;
 
-definition -> definition_of_C_major (*
-	-> rrel_key_sc_element: concept_C_major;;
+definition -> definition_of_c_major (*
+	-> rrel_key_sc_element: concept_c_major;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Мажорная тональность с тоникой до. Не имеет диезов при ключе] (* <- lang_ru;; *);;
