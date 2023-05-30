@@ -7,7 +7,9 @@ section_subject_domain_of_membranophones
 	[Section. Subject domain of membranophones percussion instrument] (* <- lang_en;; *);
 
 <= nrel_section_decomposition: {
-	section_subject_domain_of_drums
+	section_subject_domain_of_drums;
+	section_subject_domain_of_timpani;
+	section_subject_domain_of_tambourine
 };
 
 <- rrel_key_sc_element:
@@ -41,7 +43,9 @@ section_subject_domain_of_membranophones=[*
 		subject_domain_of_percussion_instruments;
 
 	=> nrel_private_subject_domain:
-		subject_domain_of_drums;;
+		subject_domain_of_drums;
+		subject_domain_of_timpani;
+		subject_domain_of_tambourine;;
 *];;
 
 sc_node_class ->

@@ -7,7 +7,14 @@ max: |
   idiophones_percussion_instrument
 
 concepts: |
-  membranophones
+  castanets
+  xylophone
+  rainstick
+  teponaztl
+  triangle
+  glucophone
+  hang
+  music_saw
 
 nrels: |
   stylistic_origin

@@ -9,7 +9,14 @@ section_subject_domain_of_idiophones
 <- rrel_key_sc_element:
 	subject_domain_of_idiophones;
 	concept_idiophones_percussion_instrument;
-	concept_membranophones;
+	concept_castanets;
+	concept_xylophone;
+	concept_rainstick;
+	concept_teponaztl;
+	concept_triangle;
+	concept_glucophone;
+	concept_hang;
+	concept_music_saw;
 	nrel_stylistic_origin;
 	nrel_place_of_origin;
 	nrel_year_of_origin;;
@@ -26,7 +33,14 @@ section_subject_domain_of_idiophones=[*
 		concept_idiophones_percussion_instrument;
 
 	-> rrel_not_maximum_studied_object_class:
-		concept_membranophones;
+		concept_castanets;
+		concept_xylophone;
+		concept_rainstick;
+		concept_teponaztl;
+		concept_triangle;
+		concept_glucophone;
+		concept_hang;
+		concept_music_saw;
 
 	-> rrel_explored_relation:
 		nrel_stylistic_origin;
@@ -39,7 +53,14 @@ section_subject_domain_of_idiophones=[*
 
 sc_node_class ->
 	concept_idiophones_percussion_instrument;
-	concept_membranophones;;
+	concept_castanets;
+	concept_xylophone;
+	concept_rainstick;
+	concept_teponaztl;
+	concept_triangle;
+	concept_glucophone;
+	concept_hang;
+	concept_music_saw;;
 
 sc_node_norole_relation ->
 	nrel_stylistic_origin;
