@@ -1,10 +1,10 @@
-concept_D_minor
+concept_d_minor
 => nrel_main_idtf:
 	[ре минор] (* <- lang_ru;; *);
 	[D minor] (* <- lang_en;; *);;
 
-definition -> definition_of_D_minor (*
-	-> rrel_key_sc_element: concept_D_minor;;
+definition -> definition_of_d_minor (*
+	-> rrel_key_sc_element: concept_d_minor;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Минорная тональность с тоникой ре. Имеет один бемоль при ключе] (* <- lang_ru;; *);;
