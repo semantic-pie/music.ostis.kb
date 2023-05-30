@@ -5,7 +5,7 @@ parent: music_theory
 
 children: |
   techniques
-  dynamic_nuance
+  dynamic_markings
 
 max: |
   performance
