@@ -5,7 +5,7 @@ definition:
   en: A power chord is an interval consisting of the root and fifth tones, usually used in playing stringed instruments, and especially on electric guitar, using sound distortion effects such as overdrive and distortion
   using:
     concepts: |
-      musical_interval
+      music_interval
       guitar
       electro_guitar
 

@@ -6,7 +6,7 @@ definition:
   using:
     concepts: | 
       music_notation
-      musical_interval
+      music_interval
       major_second
       minor_second
     nrels: |
