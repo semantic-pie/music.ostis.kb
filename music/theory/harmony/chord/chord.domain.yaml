@@ -1,5 +1,5 @@
 en: chord
-ru: трезвучие
+ru: трезвучия
 
 parent: harmony
 
@@ -8,3 +8,5 @@ max: |
 
 concepts: |
   power_chord
+  major_chord
+  minor_chord

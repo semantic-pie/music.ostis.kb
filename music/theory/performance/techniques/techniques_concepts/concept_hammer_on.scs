@@ -1,10 +1,10 @@
-concept_hamer_on
+concept_hammer_on
 => nrel_main_idtf:
 	[хамер он] (* <- lang_ru;; *);
 	[hammer-on] (* <- lang_en;; *);;
 
-definition -> definition_of_hamer_on (*
-	-> rrel_key_sc_element: concept_hamer_on;;
+definition -> definition_of_hammer_on (*
+	-> rrel_key_sc_element: concept_hammer_on;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Бенд это техника, используемая для манипулирования высотой одной ноты на одной струне. Бенд возникает, когда играется нота, а затем натягивается струна, делая ноту выше по высоте, чем первая сыгранная нота. Эта техника противоположна пулл оф] (* <- lang_ru;; *);;
