@@ -15,7 +15,7 @@ section_subject_domain_of_music
 <- rrel_key_sc_element:
 	subject_domain_of_music;
 	concept_music;
-	concept_musical_genre;
+	concept_music_genre;
 	concept_music_instrument;
 	concept_music_theory;;
 
@@ -31,7 +31,7 @@ section_subject_domain_of_music=[*
 		concept_music;
 
 	-> rrel_not_maximum_studied_object_class:
-		concept_musical_genre;
+		concept_music_genre;
 		concept_music_instrument;
 		concept_music_theory;
 
@@ -46,6 +46,6 @@ section_subject_domain_of_music=[*
 
 sc_node_class ->
 	concept_music;
-	concept_musical_genre;
+	concept_music_genre;
 	concept_music_instrument;
 	concept_music_theory;;

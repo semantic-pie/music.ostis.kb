@@ -6,7 +6,12 @@ concept_avant_garde;
 concept_synthesizer;
 concept_dance_music;
 concept_electronic_instrument;
-concept_sampling;;
+concept_sampling;
+=> nrel_place_of_origin:
+1960s;
+=> nrel_place_of_origin:
+germany;
+united_states;;
 
 concept_house
 <- concept_electronic_music;
