@@ -7,7 +7,7 @@ concept_rock_n_roll;
 united_kingdom;
 united_states;
 => nrel_year_of_origin;
-1940s;;
+1940s;
 => nrel_used_musical_instruments:
 concept_electro_guitar;
 concept_bass_guitar;
