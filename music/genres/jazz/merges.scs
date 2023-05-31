@@ -2,16 +2,21 @@ concept_swing
 <- concept_jazz;
 <- concept_music_genre;
 => nrel_stylistic_origin:
-concept_big_band;
-concept_dance_music;
-concept_ragtime;
-concept_jazz;
+concept_blues;
 => nrel_place_of_origin:
 united_states;
 => nrel_year_of_origin:
 1930s;
+=> nrel_used_musical_instruments:
+concept_drums;
+concept_saxophone;
+concept_bass_guitar;
+concept_electro_guitar;
 => nrel_derivative_form:
-concept_swing_revival;;
+concept_latin_jazz;
+concept_cool_jazz;
+concept_bebop;
+concept_swing;;
 
 concept_bebop
 <- concept_jazz;

@@ -43,6 +43,9 @@ pattern_strange_ganre = [*
 *];;
 
 search_pattern
+=> nrel_main_idtf:
+    [шаблон поиска](* <- lang_ru;; *);
+    [search template](* <- lang_en;; *);
 -> pattern_place_of_origin;
 -> pattern_place_of_origin_is_usa;
 -> pattern_year_of_origin_in_1960;
