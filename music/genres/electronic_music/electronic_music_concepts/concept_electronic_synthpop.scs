@@ -1,10 +1,10 @@
-concept_synthpop
+concept_electronic_synthpop
 => nrel_main_idtf:
 	[синтпоп] (* <- lang_ru;; *);
 	[synthpop] (* <- lang_en;; *);;
 
-definition -> definition_of_synthpop (*
-	-> rrel_key_sc_element: concept_synthpop;;
+definition -> definition_of_electronic_synthpop (*
+	-> rrel_key_sc_element: concept_electronic_synthpop;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Синтпоп это жанр поп-музыки, который характеризуется использованием синтезаторов, электронных ударных и других электронных инструментов, создающих легкие мелодии и ритмы] (* <- lang_ru;; *);;
