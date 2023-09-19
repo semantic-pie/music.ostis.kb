@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Loader</title>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <form id="myForm" class="" enctype="multipart/form-data">
+      <input class="" type="file" name="file" id="fileInput" />
+      <input type="button" value="Upload" onclick="uploadFile()" />
+      <p id="response"></p>
+    </form>
+
+    <script>
+      function uploadFile() {
+        const fileInput = document.getElementById("fileInput")
+        const file = fileInput.files[0]
+        const formData = new FormData()
+        formData.append("file", file)
+
+        const xhr = new XMLHttpRequest()
+        xhr.open("POST", "http://localhost:8080/api/v1/tracks", true)
+        xhr.onload = function () {
+          document.getElementById("response").innerText = xhr.responseText;
+        }
+        xhr.send(formData)
+      }
+    </script>
+  </body>
+</html>

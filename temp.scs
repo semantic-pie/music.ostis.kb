@@ -1,0 +1,25 @@
+concept_artist
+<- sc_node_class;
+=> nrel_main_idtf:
+	[исполнитель] (* <- lang_ru;; *);
+	[artist] (* <- lang_en;; *);;
+
+concept_track
+<- sc_node_class;;
+
+nrel_artis
+=> nrel_main_idtf:
+	[исполняет] (* <- lang_ru;; *);
+	[artist] (* <- lang_en;; *);;
+
+
+semantic_input
+=> nrel_main_idtf:
+	[Загрузка батонов] (* <- lang_ru;; *);
+	[Music Loader] (* <- lang_en;; *);
+-> rrel_example:
+				"file://loadform.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+   				*);;
