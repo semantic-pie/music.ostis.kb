@@ -8,6 +8,7 @@ concept_track
 <- sc_node_class;;
 
 nrel_artis
+<- sc_node_norole_relation;
 => nrel_main_idtf:
 	[исполняет] (* <- lang_ru;; *);
 	[artist] (* <- lang_en;; *);;
