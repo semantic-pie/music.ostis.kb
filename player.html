@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>player</title>
+    <style>
+        .player_body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    </style>
+</head>
+<body class="player_body">
+<h1>Музыкальный плеер, ня!</h1>
+
+<label for="uuid">UUID:</label>
+<input id="uuid" type="text">
+
+<audio id="audioPlayer" controls>
+    Your browser does not support the audio tag.
+</audio>
+
+<button id="playButton">Load</button>
+
+<script>
+    const audioPlayer = document.getElementById('audioPlayer');
+    const playButton = document.getElementById('playButton');
+
+    playButton.addEventListener('click', () => {
+        const uuid = document.getElementById("uuid").value
+        audioPlayer.src = `http://localhost:8080/api/v1/tracks/${uuid}`;
+    });
+</script>
+</body>
+</html>

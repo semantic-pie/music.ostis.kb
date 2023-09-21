@@ -14,12 +14,30 @@ nrel_artis
 	[artist] (* <- lang_en;; *);;
 
 
-semantic_input
+music_controls
+<- sc_node_struct;
 => nrel_main_idtf:
-	[Загрузка батонов] (* <- lang_ru;; *);
-	[Music Loader] (* <- lang_en;; *);
+	[Music controls] (* <- lang_en;; *);;
+
+semantic_input
+<- music_controls;
+=> nrel_main_idtf:
+	[Загрузчик музыки] (* <- lang_ru;; *);
+	[Music loader] (* <- lang_en;; *);
 -> rrel_example:
 				"file://loadform.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+   				*);;
+
+semantic_player
+<- music_controls;
+=> nrel_main_idtf:
+	[Плеер] (* <- lang_ru;; *);
+	[Player] (* <- lang_en;; *);
+-> rrel_example:
+				"file://player.html"
 				(*
 				<- lang_ru;;
 				=> nrel_format: format_html;;
