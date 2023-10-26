@@ -8,7 +8,7 @@
   </head>
   <body>
     <form id="myForm" class="" enctype="multipart/form-data">
-      <input class="" type="file" name="file" id="fileInput" />
+      <input class="" type="file" name="resource" id="fileInput" />
       <input type="button" value="Upload" onclick="uploadFile()" />
       <p id="response"></p>
     </form>
@@ -18,10 +18,10 @@
         const fileInput = document.getElementById("fileInput")
         const file = fileInput.files[0]
         const formData = new FormData()
-        formData.append("file", file)
+        formData.append("resource", file)
 
         const xhr = new XMLHttpRequest()
-        xhr.open("POST", "http://localhost:8080/api/v1/tracks", true)
+        xhr.open("POST", "http://localhost:8080/api/v1/loafloader", true)
         xhr.onload = function () {
           document.getElementById("response").innerText = xhr.responseText;
         }
