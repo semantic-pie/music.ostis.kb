@@ -7,8 +7,8 @@
     </style>
   </head>
   <body>
-    <form id="myForm" class="" enctype="multipart/form-data">
-      <input class="" type="file" name="resource" id="fileInput" />
+    <form id="myForm">
+      <input class="" type="file" name="resources" id="fileInput" multiple />
       <input type="button" value="Upload" onclick="uploadFile()" />
       <p id="response"></p>
     </form>
@@ -16,9 +16,14 @@
     <script>
       function uploadFile() {
         const fileInput = document.getElementById("fileInput")
-        const file = fileInput.files[0]
         const formData = new FormData()
-        formData.append("resource", file)
+
+        const selectedFiles = fileInput.files
+        for (const element of selectedFiles) {
+          formData.append("resources", element);
+        }
+
+        console.log("data: ", formData)
 
         const xhr = new XMLHttpRequest()
         xhr.open("POST", "http://localhost:8080/api/v1/loafloader", true)
