@@ -1,10 +1,10 @@
-concept_trash_metal
+concept_thrash_metal
 => nrel_main_idtf:
 	[трэш-метал] (* <- lang_ru;; *);
 	[thrash metal] (* <- lang_en;; *);;
 
-definition -> definition_of_trash_metal (*
-	-> rrel_key_sc_element: concept_trash_metal;;
+definition -> definition_of_thrash_metal (*
+	-> rrel_key_sc_element: concept_thrash_metal;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Трэш-метал это жанр экстремальной музыки, который характеризуется быстрыми темпами, сложными гитарными рифами, агрессивным вокалом и иногда использованием электронных эффектов] (* <- lang_ru;; *);;
