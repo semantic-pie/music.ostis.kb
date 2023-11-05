@@ -17,13 +17,13 @@ nrel_artis
 music_controls
 <- sc_node_struct;
 => nrel_main_idtf:
-	[Music controls] (* <- lang_en;; *);;
+	[music controls] (* <- lang_en;; *);;
 
 semantic_input
 <- music_controls;
 => nrel_main_idtf:
-	[Загрузчик музыки] (* <- lang_ru;; *);
-	[Music loader] (* <- lang_en;; *);
+	[загрузчик музыки] (* <- lang_ru;; *);
+	[music loader] (* <- lang_en;; *);
 -> rrel_example:
 				"file://loadform.html"
 				(*
@@ -34,10 +34,22 @@ semantic_input
 semantic_player
 <- music_controls;
 => nrel_main_idtf:
-	[Плеер] (* <- lang_ru;; *);
-	[Player] (* <- lang_en;; *);
+	[плеер] (* <- lang_ru;; *);
+	[player] (* <- lang_en;; *);
 -> rrel_example:
 				"file://player.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+   				*);;
+
+semantic_player_new
+<- music_controls;
+=> nrel_main_idtf:
+	[плеер new] (* <- lang_ru;; *);
+	[player new] (* <- lang_en;; *);
+-> rrel_example:
+				"file://newPlayer.html"
 				(*
 				<- lang_ru;;
 				=> nrel_format: format_html;;
