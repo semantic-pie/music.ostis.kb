@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Простой аудиоплеер</title>
     <style>
-        li {
-            cursor: pointer;
-        }
-        li:hover {
-            text-decoration: underline;
-        }
+      li {
+        cursor: pointer;
+      }
+      li:hover {
+        text-decoration: underline;
+      }
     </style>
-</head>
-<body>
-<button onclick="playAudio()">Play</button>
-<button onclick="stopAudio()">Stop</button>
+  </head>
+  <body>
+    <input type="text" id="limit-input-24sfd3442" />
+    <button onclick="update()">update</button>
 
-<br>
+    <audio id="audioPlayer" controls>
+      Your browser does not support the audio tag.
+    </audio>
 
-<audio id="audioPlayer" controls>
-    Your browser does not support the audio tag.
-</audio>
+    <br />
 
-<br>
+    <div>
+      <h4>Tracks:</h4>
+      <ul id="track-list"></ul>
+    </div>
 
-<div>
-    <h4>Tracks:</h4>
-    <ul id="track-list">
-    </ul>
-</div>
+    <script>
+      update()
 
-<script>
-    fetch("http://localhost:8060/api/v1/derezhor/tracks?page=0&limit=100").then(
-        data => data.json()
-    ).then((tracks) => {
-        console.log("tracks: ", tracks)
-        const ul = document.getElementById("track-list")
-
-        for (const track of tracks) {
-            console.log("track: ", track)
-            const li = document.createElement("li");
-            li.appendChild(document.createTextNode(track.title));
-            li.addEventListener("click", () => changeAudio(track.hash))
-            ul.appendChild(li);
-        }
-    })
-
-    function changeAudio(url) {
+      function changeAudio(url) {
         console.log("change to: ", url)
-        const audioPlayer = document.getElementById('audioPlayer');
-        audioPlayer.src = `http://localhost:8080/api/v1/loafloader/${url}`;
+        const audioPlayer = document.getElementById("audioPlayer")
+        audioPlayer.src = `http://localhost:8080/api/v1/loafloader/${url}`
+        audioPlayer.play()
+      }
 
-    }
+      function update() {
+        const limit = document.getElementById("limit-input-24sfd3442").value ?? 10
+        console.log("limit: ", value)
 
-    const audio = document.getElementById("audioPlayer")
+        fetch(`http://localhost:8080/api/v1/derezhor/tracks?page=0&limit=${limit}`)
+          .then((data) => data.json())
+          .then((tracks) => {
+            console.log("tracks: ", tracks)
+            const ul = document.getElementById("track-list")
+            ul.innerHTML = ''
 
-    function playAudio() {
-        audio.play();
-    }
+            for (const track of tracks) {
+              console.log("track: ", track)
+              const li = document.createElement("li")
 
-    function stopAudio() {
-        audio.pause();
-        audio.currentTime = 0;
-    }
-</script>
-</body>
+              const span = document.createElement("span")
+              span.appendChild(
+                document.createTextNode(`${track.author}, ${track.title}`)
+              )
+
+              const link = document.createElement("a")
+              link.appendChild(document.createTextNode("show"))
+              link.setAttribute("sc_addr", `${track.scAddr}`)
+
+              li.appendChild(span)
+              li.appendChild(link)
+              li.addEventListener("click", () => changeAudio(track.hash))
+              ul.appendChild(li)
+            }
+          })
+      }
+    </script>
+  </body>
 </html>
