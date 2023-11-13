@@ -13,7 +13,10 @@
   </head>
   <body>
     <input type="text" id="limit-input-24sfd3442" />
-    <button onclick="update()">update</button>
+    <input type="text" id="playlist-name" />
+    <input type="text" id="playlist-user" />
+    <button onclick="update()">Find Tracks</button>
+    <button onclick="updatePlaylist()">Find Playlist</button>
 
     <audio id="audioPlayer" controls>
       Your browser does not support the audio tag.
@@ -27,7 +30,6 @@
     </div>
 
     <script>
-      update()
 
       function changeAudio(url) {
         console.log("change to: ", url)
@@ -41,6 +43,42 @@
         console.log("limit: ", value)
 
         fetch(`http://localhost:8080/api/v1/derezhor/tracks?page=0&limit=${limit}`)
+          .then((data) => data.json())
+          .then((tracks) => {
+            console.log("tracks: ", tracks)
+            const ul = document.getElementById("track-list")
+            ul.innerHTML = ''
+
+            for (const track of tracks) {
+              console.log("track: ", track)
+              const li = document.createElement("li")
+
+              const span = document.createElement("span")
+              span.appendChild(
+                document.createTextNode(`${track.author}, ${track.title}`)
+              )
+
+              const link = document.createElement("a")
+              link.appendChild(document.createTextNode("show"))
+              link.setAttribute("sc_addr", `${track.scAddr}`)
+
+              li.appendChild(span)
+              li.appendChild(link)
+              li.addEventListener("click", () => changeAudio(track.hash))
+              ul.appendChild(li)
+            }
+          })
+      }
+
+
+      function updatePlaylist() {
+        const playlist = document.getElementById("playlist-name").value
+        const user = document.getElementById("playlist-user").value
+
+        console.log('playlist: ', playlist)
+        console.log('user: ', user)
+
+        fetch(`http://localhost:8080/api/v1/derezhor/tracks/${playlist}?user=${user}`)
           .then((data) => data.json())
           .then((tracks) => {
             console.log("tracks: ", tracks)
