@@ -1,0 +1,11 @@
+interface
+<- music_controls;
+=> nrel_main_idtf:
+	[тестовый интерфейч] (* <- lang_ru;; *);
+	[test interface] (* <- lang_en;; *);
+-> rrel_example:
+				"file://index.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+   				*);;
