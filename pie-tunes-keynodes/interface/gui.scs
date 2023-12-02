@@ -1,7 +1,7 @@
 interface
 <- music_controls;
 => nrel_main_idtf:
-	[тестовый интерфейч] (* <- lang_ru;; *);
+	[тестовый интерфейс] (* <- lang_ru;; *);
 	[test interface] (* <- lang_en;; *);
 -> rrel_example:
 "file://index.html"
