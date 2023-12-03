@@ -57,3 +57,9 @@ nrel_password
 => nrel_main_idtf:
 	[password] (* <- lang_en;; *);
     [пароль] (* <- lang_ru;; *);;
+
+nrel_genre
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[жанр] (* <- lang_ru;; *);
+	[genre] (* <- lang_en;; *);;
