@@ -6,7 +6,7 @@ interface
 -> rrel_example:
 "file://index.html"
 (*
-	<- lang_ru;;
+	<- lang_en;;
 	=> nrel_format: format_html;;
 *);;
 
@@ -18,6 +18,6 @@ semantic_input
 -> rrel_example:
 "file://loadform.html"
 (*
-	<- lang_ru;;
+	<- lang_en;;
 	=> nrel_format: format_html;;
 *);;
