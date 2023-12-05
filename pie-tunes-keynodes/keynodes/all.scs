@@ -70,3 +70,9 @@ nrel_likes
 => nrel_main_idtf:
 	[нравится*] (* <- lang_ru;; *);
 	[likes*] (* <- lang_en;; *);;
+
+unlike
+<- sc_node_class;
+=> nrel_main_idtf:
+	[удалить со списка понравившихся] (* <- lang_ru;; *);
+	[delete from likes] (* <- lang_en;; *);;
