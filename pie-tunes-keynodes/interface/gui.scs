@@ -1,23 +1,23 @@
 interface
 <- music_controls;
 => nrel_main_idtf:
-	[тестовый интерфейс] (* <- lang_ru;; *);
-	[test interface] (* <- lang_en;; *);
+	[тестовый интерфейс Pie Tunes] (* <- lang_ru;; *);
+	[Pie Tunes test interface] (* <- lang_en;; *);
 -> rrel_example:
 "file://index.html"
 (*
-	<- lang_en;;
+	<- lang_ru;;
 	=> nrel_format: format_html;;
 *);;
 
-semantic_input
+file_load_form
 <- music_controls;
 => nrel_main_idtf:
-	[загрузчик музыки] (* <- lang_ru;; *);
-	[music loader] (* <- lang_en;; *);
--> rrel_example:
+	[загрузчик файлов] (* <- lang_ru;; *);
+	[file loader] (* <- lang_en;; *);
+-> rrel_input_form:
 "file://loadform.html"
 (*
-	<- lang_en;;
+	<- lang_ru;;
 	=> nrel_format: format_html;;
 *);;
