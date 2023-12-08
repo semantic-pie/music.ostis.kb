@@ -63,3 +63,9 @@ nrel_genre
 => nrel_main_idtf:
 	[жанр] (* <- lang_ru;; *);
 	[genre] (* <- lang_en;; *);;
+
+rrel_input_form
+<- sc_node_role_relation;
+=> nrel_main_idtf:
+	[форма ввода] (* <- lang_ru;; *);
+	[input form] (* <- lang_en;; *);;
