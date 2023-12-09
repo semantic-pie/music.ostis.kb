@@ -168,6 +168,17 @@ united_states;
 => nrel_year_of_origin:
 1960s;;
 
+
+concept_funk
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
 concept_soul_jazz
 <- concept_jazz;
 <- concept_music_genre;

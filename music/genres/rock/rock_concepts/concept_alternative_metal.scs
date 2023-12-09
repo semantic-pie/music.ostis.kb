@@ -2,7 +2,7 @@ concept_alternative_metal
 => nrel_main_idtf:
 	[альтернативный метал] (* <- lang_ru;; *);
 	[alternative metal] (* <- lang_en;; *);;
-	
+
 definition -> definition_of_alternative_metal (*
 	-> rrel_key_sc_element: concept_alternative_metal;;
 

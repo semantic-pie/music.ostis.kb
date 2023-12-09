@@ -16,6 +16,7 @@ section_subject_domain_of_jazz
 	concept_free_jazz;
 	concept_modal_jazz;
 	concept_jazz_fusion;
+	concept_funk;
 	concept_latin_jazz;
 	concept_afro_cuban_jazz;
 	concept_bossa_nova;
@@ -46,6 +47,7 @@ section_subject_domain_of_jazz=[*
 	-> rrel_not_maximum_studied_object_class:
 		concept_swing;
 		concept_bebop;
+		concept_funk;
 		concept_cool_jazz;
 		concept_hard_bop;
 		concept_free_jazz;
@@ -91,6 +93,7 @@ sc_node_class ->
 	concept_swing_revival;
 	concept_gypsy_jazz;
 	concept_ethno_jazz;
+	concept_funk;
 	concept_chamber_jazz;
 	concept_avantgarde_jazz;
 	concept_jazz_rap;

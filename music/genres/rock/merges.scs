@@ -47,6 +47,34 @@ united_states;
 concept_grunge;
 concept_punk_rock;;
 
+concept_glam_metal
+<- concept_heavy_metal;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_hard_rock;
+concept_glam_rock;
+concept_pop_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1970s;
+concept_hair_metal;
+concept_pop_metal;;
+
+concept_hardcore_punk
+<- concept_rock;
+<- concept_punk_rock;
+<- concept_hard_rock;
+<- concept_hardcore;
+=> nrel_stylistic_origin:
+concept_hardcore;
+concept_hard_rock;
+concept_punk_rock;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
 concept_punk_rock 
 <- concept_rock;
 <- concept_music_genre;
@@ -347,6 +375,42 @@ united_states;
 united_kingdom;
 => nrel_year_of_origin:
 1980s;;
+
+concept_shoegaze
+<- concept_rock;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_alternative_rock;
+concept_alternative_metal;
+concept_post_punk;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1980s;
+=> nrel_derivative_form:
+concept_indie;
+concept_indie_electronic;
+concept_shoegaze;;
+
+concept_indie
+<- concept_rock;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_alternative_rock;
+concept_post_punk;
+concept_jangle_pop;
+concept_lo_fi;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1980s;
+=> nrel_derivative_form:
+concept_indie_pop;
+concept_indie_folk;
+concept_indie_electronic;
+concept_dream_pop;
+concept_shoegaze;;
 
 concept_indie_rock
 <- concept_rock;

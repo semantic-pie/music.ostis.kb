@@ -7,6 +7,12 @@ concept_continent
 concept_region
 <- sc_node_class;;
 
+russia
+<- concept_country;
+=> nrel_main_idtf:
+    [Россия](* <- lang_ru;; *);    
+	[Russion](* <- lang_en;; *);;
+
 united_states
 <- concept_country;
 => nrel_main_idtf:

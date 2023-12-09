@@ -63,6 +63,21 @@ united_kingdom;
 => nrel_year_of_origin:
 1960s;;
 
+concept_phonk
+<- concept_pop_music;
+<- concept_music_genre;
+<- concept_rock;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_rock_music;
+concept_electro_drums;
+concept_electronic_synthpop;
+=> nrel_place_of_origin:
+russia;
+united_states;
+=> nrel_year_of_origin:
+2010s;;
+
 concept_power_pop
 <- concept_pop_music;
 <- concept_music_genre;
