@@ -378,19 +378,40 @@ united_kingdom;
 
 concept_shoegaze
 <- concept_rock;
-<- concept_music_genre;
+<- concept_indie_rock;
+<- concept_alternative_rock;
+<- concept_psychedelic_rock;
 => nrel_stylistic_origin:
 concept_alternative_rock;
-concept_alternative_metal;
+concept_indie_rock;
 concept_post_punk;
 => nrel_place_of_origin:
 united_kingdom;
 => nrel_year_of_origin:
 1980s;
 => nrel_derivative_form:
-concept_indie;
-concept_indie_electronic;
-concept_shoegaze;;
+concept_nu_gaze;;
+
+concept_nu_gaze
+=> nrel_main_idtf:
+    [ню-гейз]
+    (* <- lang_ru;; *);
+    [nu gaze]
+    (* <- lang_en;; *);;
+
+concept_post_punk
+=> nrel_main_idtf:
+    [пост-панк]
+    (* <- lang_ru;; *);
+    [post punk]
+    (* <- lang_en;; *);;
+
+concept_indie
+=> nrel_main_idtf:
+    [инди]
+    (* <- lang_ru;; *);
+    [indie]
+    (* <- lang_en;; *);;
 
 concept_indie
 <- concept_rock;
